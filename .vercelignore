@@ -1,0 +1,25 @@
+# Vercel Ignore file
+# Ignore root pyproject.toml to prevent uv from resolving heavy ML packages
+pyproject.toml
+requirements-full.txt
+
+# Virtual environments & caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Development directories not needed in deployment
+tests/
+docker/
+docs/
+scripts/
+
+# Frontend development dependencies
+frontend/node_modules/
+
+# Local logs
+*.log
+data/logged_feedback.jsonl

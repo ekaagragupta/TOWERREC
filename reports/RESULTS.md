@@ -52,9 +52,9 @@ Comparison of baseline models, Stage 1 Two-Tower retrieval, and Stage 2 LightGBM
 
 | Index Type | Recall@50 vs Exact | Recall Loss | Query Latency p50 (ms) | Query Latency p95 (ms) | Query Latency p99 (ms) | QPS (CPU) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **FlatIP (Exact)** | 1.0000 | 0.0000 | 0.01 ms | 0.01 ms | 0.01 ms | 115562.3 |
-| **HNSW** | 1.0000 | 0.0000 | 0.01 ms | 0.02 ms | 0.04 ms | 65584.4 |
-| **IVF-PQ** | 0.9480 | 0.0520 | 0.01 ms | 0.02 ms | 0.03 ms | 74967.1 |
+| **FlatIP (Exact)** | 1.0000 | 0.0000 | 0.01 ms | 0.01 ms | 0.01 ms | 120169.8 |
+| **HNSW** | 1.0000 | 0.0000 | 0.01 ms | 0.02 ms | 0.04 ms | 66882.1 |
+| **IVF-PQ** | 0.9480 | 0.0520 | 0.01 ms | 0.01 ms | 0.17 ms | 56130.1 |
 
 ## 4. Counterfactual Off-Policy Evaluation (OPE)
 
@@ -110,13 +110,13 @@ Standard offline ranking metrics like NDCG evaluate models based on observed int
 
 | Metric | Measured Result (CPU-only) | Production Target | Status |
 | :--- | :--- | :--- | :--- |
-| **Latency p50** | 0.78 ms | < 30 ms | ✅ Pass |
-| **Latency p95** | 0.87 ms | < 75 ms | ✅ Pass |
-| **Latency p99** | 0.98 ms | < 100 ms | ✅ Pass |
-| **Throughput (QPS)** | 1260.6 req/s | > 50 req/s | ✅ Pass |
+| **Latency p50** | 0.96 ms | < 30 ms | ✅ Pass |
+| **Latency p95** | 1.08 ms | < 75 ms | ✅ Pass |
+| **Latency p99** | 1.15 ms | < 100 ms | ✅ Pass |
+| **Throughput (QPS)** | 1025.3 req/s | > 50 req/s | ✅ Pass |
 | **Feature Fetch (p50)** | 0.05 ms | < 10 ms | ✅ Pass |
 | **ANN Retrieval (p50)** | 0.01 ms | < 15 ms | ✅ Pass |
-| **LightGBM Ranking (p50)** | 0.62 ms | < 25 ms | ✅ Pass |
+| **LightGBM Ranking (p50)** | 0.73 ms | < 25 ms | ✅ Pass |
 
 ## 7. Honest Engineering Limitations & Future Work
 

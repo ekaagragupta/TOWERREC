@@ -24,6 +24,7 @@ def test_client(tmp_path):
 
     with TestClient(app) as client:
         yield client
+    set_pipeline(None)
 
 
 def test_health_endpoint(test_client):

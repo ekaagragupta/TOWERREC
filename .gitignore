@@ -3,26 +3,29 @@ __pycache__/
 *.py[cod]
 
 # Virtual environments
+.venv
 .venv/
+venv
 venv/
 
 # Testing and linting
 .pytest_cache/
 .ruff_cache/
 
-# Secrets
+# Secrets & Local credentials
 .env
 .env.*
 !.env.example
+.vercel/
 
 # macOS
 .DS_Store
 
-# Local datasets and feedback
-data/raw/
+# Local feedback logs and archive downloads
 data/logged_feedback.jsonl
+*.zip
+*.tar.gz
 
-# Generated experiment outputs and model checkpoints
-reports/tables/
-reports/figures/
-reports/checkpoints/
+# Node
+frontend/node_modules/
+*.log

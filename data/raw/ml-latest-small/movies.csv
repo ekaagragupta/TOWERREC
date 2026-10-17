@@ -1,0 +1,1501 @@
+movieId,title,genres
+1,The Godfather (1977),Crime|Action|Musical
+2,Titanic (1985),Romance|Animation|Mystery
+3,The Lord of the Rings: The Return of the King (1972),Fantasy|Adventure
+4,The Shining (1992),Horror|Film-Noir
+5,Toy Story (1996),Animation
+6,Interstellar (2000),Sci-Fi|Horror
+7,Free Solo (1991),Documentary|Action
+8,The Dark Knight (1982),Action
+9,Spirited Away (2013),Animation
+10,Pulp Fiction (1974),Crime
+11,Parasite (2002),Thriller|Musical|Documentary
+12,Harry Potter and the Prisoner of Azkaban (2010),Fantasy
+13,The Third Man (1979),Film-Noir|Crime
+14,Goodfellas (2003),Crime|Horror
+15,The Lord of the Rings: The Fellowship of the Ring (1976),Adventure|Romance
+16,Inception (1985),Sci-Fi|Crime
+17,Casablanca (1983),Romance
+18,The Shawshank Redemption (1989),Drama
+19,La La Land (2001),Musical
+20,Memento (1979),Mystery|Film-Noir|Horror
+21,Won't You Be My Neighbor? (1995),Documentary|Film-Noir
+22,"The Good, the Bad and the Ugly (2011)",Western|Musical
+23,Pan's Labyrinth (1994),Fantasy|Western
+24,The Silence of the Lambs (1993),Horror|Documentary
+25,The Big Lebowski (2002),Comedy
+26,Se7en (2014),Mystery|Comedy
+27,Joker (2006),Thriller|Action
+28,The Lion King (1972),Animation|Film-Noir
+29,The Departed (2012),Crime
+30,March of the Penguins (1995),Documentary
+31,The Matrix (1991),Sci-Fi|Drama
+32,Superbad (1987),Comedy|Documentary
+33,Mad Max: Fury Road (2006),Action
+34,Unforgiven (1980),Western
+35,Double Indemnity (2002),Film-Noir
+36,Scarface (1988),Crime|Film-Noir
+37,Once Upon a Time in the West (1983),Western|Sci-Fi
+38,Groundhog Day (2014),Comedy|Fantasy
+39,The Maltese Falcon (1995),Film-Noir
+40,Singin' in the Rain (1995),Musical|Sci-Fi
+41,Zodiac (2002),Mystery
+42,Alien (1998),Horror|Musical
+43,Psycho (1979),Horror
+44,Jurassic Park (1994),Adventure
+45,Saving Private Ryan (1997),War
+46,Shutter Island (1991),Mystery
+47,Star Wars: A New Hope (2009),Adventure
+48,Die Hard (2011),Action|Thriller
+49,The Untouchables (1970),Crime
+50,Django Unchained (1975),Western|Sci-Fi
+51,Jiro Dreams of Sushi (2005),Documentary
+52,WALL-E (1970),Animation|Mystery
+53,The Wizard of Oz (1973),Fantasy|Comedy
+54,Apocalypse Now (2016),War
+55,Forrest Gump (1985),Drama|Mystery
+56,Eternal Sunshine of the Spotless Mind (2013),Romance
+57,Casino (1971),Crime|Mystery
+58,Schindler's List (2004),Drama|Crime
+59,Spider-Man: Into the Spider-Verse (1989),Animation
+60,Edward Scissorhands (1984),Fantasy|Mystery
+61,Up (1987),Animation
+62,Monty Python and the Holy Grail (1997),Comedy
+63,Big Fish (2015),Fantasy|War
+64,Before Sunrise (1999),Romance
+65,Nightcrawler (2006),Thriller|Crime
+66,Sunset Boulevard (1973),Film-Noir
+67,Fight Club (2008),Drama|Fantasy
+68,The Sound of Music (1997),Musical|Adventure
+69,12 Angry Men (1987),Drama
+70,Man on Wire (2012),Documentary|Western
+71,Stardust (1987),Fantasy|Romance
+72,Touch of Evil (2005),Film-Noir|Musical
+73,The Prestige (2002),Mystery
+74,Finding Nemo (1971),Animation|Sci-Fi|Crime
+75,Full Metal Jacket (1995),War|Animation
+76,True Grit (1982),Western|Action
+77,Gone Girl (2009),Thriller
+78,Fargo (1984),Crime
+79,The Girl with the Dragon Tattoo (1982),Mystery
+80,City of God (1983),Crime
+81,The Truman Show (1994),Comedy
+82,No Country for Old Men (1982),Crime|War
+83,Shaun of the Dead (2014),Comedy
+84,Indiana Jones and the Last Crusade (2017),Adventure|Crime
+85,The Searchers (1988),Western|Romance
+86,Rear Window (2001),Mystery
+87,The Shape of Water (1997),Fantasy
+88,Before Sunset (1991),Romance
+89,Gladiator (1980),Action
+90,The Notebook (2017),Romance|Sci-Fi
+91,Terminator 2: Judgment Day (1989),Action
+92,2001: A Space Odyssey (1986),Sci-Fi|War|Thriller
+93,Pride & Prejudice (2004),Romance|Sci-Fi
+94,One Flew Over the Cuckoo's Nest (2016),Drama
+95,John Wick (2009),Action|Western
+96,Whiplash (2017),Drama|Musical
+97,1917 (1978),War|Sci-Fi
+98,The Big Sleep (2009),Film-Noir|Sci-Fi|War
+99,Vertigo (1990),Mystery
+100,"Monsters, Inc. (1971)",Animation
+101,Drive (1970),Thriller|Mystery
+102,Strangers on a Train (1976),Film-Noir|Animation|Action
+103,Laura (2002),Film-Noir
+104,Raiders of the Lost Ark (2012),Action|Film-Noir|Musical
+105,Blade Runner 2049 (2002),Sci-Fi|Documentary|Mystery
+106,Black Swan (1994),Thriller|Mystery
+107,Dunkirk (1974),War
+108,Out of the Past (2015),Film-Noir
+109,West Side Story (1997),Musical|Drama
+110,Arrival (2014),Sci-Fi
+111,Tombstone (1979),Western|War
+112,Amélie (2009),Romance
+113,Chicago (2009),Musical|Sci-Fi
+114,Sicario (1990),Thriller
+115,Reservoir Dogs (1985),Crime|Thriller
+116,The Cove (2002),Documentary|Comedy
+117,Aliens (1989),Action|Film-Noir
+118,The Thing (1977),Horror|War
+119,Shadow of a Doubt (2014),Film-Noir
+120,Coraline (2002),Fantasy|Animation
+121,Coco (2014),Animation|Drama
+122,Hereditary (1996),Horror
+123,Pirates of the Caribbean: The Curse of the Black Pearl (2006),Adventure
+124,Prisoners (2008),Mystery
+125,500 Days of Summer (1983),Romance
+126,Ratatouille (2001),Animation|Musical
+127,Casino Royale (1991),Action
+128,Knives Out (1978),Mystery|Romance
+129,Princess Mononoke (2017),Animation
+130,Senna (1996),Documentary|Thriller|Adventure
+131,How to Train Your Dragon (1970),Animation
+132,Cast Away (1987),Adventure|Romance|Musical
+133,About Time (1995),Romance|Horror
+134,Dune (2011),Sci-Fi|Film-Noir|Action
+135,In a Lonely Place (2011),Film-Noir
+136,13th (1994),Documentary|War
+137,Star Wars: The Empire Strikes Back (2016),Sci-Fi
+138,Her (1971),Romance|Documentary
+139,Get Out (1981),Horror|Documentary
+140,Inside Out (2007),Animation|Mystery
+141,High Noon (1978),Western|Romance
+142,Glass Onion (1983),Mystery
+143,A Quiet Place (1978),Horror|Adventure
+144,Apollo 11 (2015),Documentary
+145,Platoon (2007),War|Thriller
+146,Gilda (2002),Film-Noir|Drama|Documentary
+147,The Fugitive (2012),Thriller|Fantasy
+148,Life of Pi (2017),Adventure
+149,The Incredibles (1978),Animation|Adventure
+150,The Hurt Locker (1988),War
+151,Speed (2014),Action
+152,Halloween (2012),Horror|Sci-Fi
+153,Léon: The Professional (1984),Action
+154,3:10 to Yuma (2000),Western|Horror
+155,The Greatest Showman (2011),Musical|Western
+156,The Exorcist (1985),Horror|Mystery
+157,Shrek (1988),Animation|Crime|War
+158,The Martian (1973),Sci-Fi|Documentary
+159,The Texas Chain Saw Massacre (1982),Horror
+160,The Hateful Eight (2014),Western|Musical
+161,Misery (1999),Thriller|Comedy
+162,A Beautiful Mind (1979),Drama|Horror
+163,There Will Be Blood (2012),Drama|Documentary|Thriller
+164,Moulin Rouge! (1976),Musical
+165,The Bourne Ultimatum (1999),Action
+166,The Thin Red Line (2017),War|Comedy
+167,Aladdin (1977),Animation|Thriller|Comedy
+168,Ex Machina (1977),Sci-Fi|Mystery
+169,Hot Fuzz (1980),Comedy
+170,Butch Cassidy and the Sundance Kid (2000),Western
+171,The Night of the Hunter (2007),Film-Noir
+172,Airplane! (1973),Comedy
+173,Cape Fear (2003),Thriller
+174,Minority Report (2016),Sci-Fi|Horror
+175,The Social Network (1998),Drama
+176,Les Misérables (2000),Musical
+177,Mary Poppins (1979),Musical
+178,Scream (1999),Horror|Musical
+179,The Da Vinci Code (2006),Mystery
+180,Searching for Sugar Man (1981),Documentary
+181,Beauty and the Beast (1989),Animation
+182,Mission: Impossible - Fallout (1975),Action
+183,The Revenant (1977),Adventure|Sci-Fi
+184,Children of Men (1979),Sci-Fi
+185,Bridge to Terabithia (1989),Fantasy|Horror
+186,Kill Bill: Vol. 1 (1975),Action|War
+187,Manchester by the Sea (1988),Drama|Sci-Fi
+188,The Conjuring (1976),Horror
+189,Chinatown (1987),Crime
+190,Hacksaw Ridge (1978),War
+191,Inglourious Basterds (2013),War
+192,Brokeback Mountain (1995),Romance
+193,Sweet Smell of Success (1979),Film-Noir|Horror
+194,Ferris Bueller's Day Off (1992),Comedy|Musical
+195,Fatal Attraction (1999),Thriller|Drama
+196,Birdman (1987),Drama
+197,Midsommar (1980),Horror
+198,Zootopia (2015),Animation|War
+199,The Chronicles of Narnia (2017),Fantasy
+200,The Usual Suspects (2011),Crime
+201,Anchorman: The Legend of Ron Burgundy (2009),Comedy
+202,Step Brothers (1994),Comedy
+203,The Game (1996),Thriller
+204,Kiss Me Deadly (1970),Film-Noir
+205,The Golden Compass (1984),Fantasy|Horror
+206,It Follows (2007),Horror
+207,Stand by Me (1993),Adventure
+208,Collateral (1981),Thriller|Comedy
+209,Atonement (1977),Romance
+210,Labyrinth (2016),Fantasy
+211,Grizzly Man (1985),Documentary|Animation
+212,Grave of the Fireflies (1998),Animation|Thriller
+213,Lawrence of Arabia (1997),Adventure|Horror
+214,The Fault in Our Stars (2001),Romance|Fantasy
+215,Moonlight (1998),Drama
+216,The Dark Crystal (1992),Fantasy|Mystery
+217,Panic Room (1985),Thriller
+218,My Neighbor Totoro (2013),Animation|Adventure|Western
+219,Back to the Future (1985),Adventure|Documentary
+220,Cabaret (2007),Musical|Fantasy|Crime
+221,Avatar (1996),Adventure|Romance
+222,Snatch (1982),Crime|Action
+223,Tropic Thunder (1977),Comedy|Animation
+224,Crazy Rich Asians (1978),Romance
+225,Black Hawk Down (2013),War|Drama
+226,Zoolander (2003),Comedy|Musical
+227,Run Lola Run (1978),Thriller
+228,Night and the City (1990),Film-Noir
+229,Oldboy (2001),Action
+230,Paths of Glory (2015),War|Thriller
+231,Source Code (1997),Mystery|Film-Noir
+232,Identity (2007),Mystery|Adventure|Thriller
+233,Dead Poets Society (1977),Drama
+234,A Fistful of Dollars (2011),Western
+235,Office Space (2009),Comedy|Thriller
+236,Bowling for Columbine (1999),Documentary|Adventure
+237,District 9 (2013),Sci-Fi|Film-Noir
+238,The Babadook (1992),Horror
+239,The Bridge on the River Kwai (1993),War
+240,For a Few Dollars More (2002),Western|Comedy|Adventure
+241,School of Rock (2006),Comedy
+242,28 Days Later (1995),Horror|Comedy
+243,"Crouching Tiger, Hidden Dragon (1971)",Action
+244,L.A. Confidential (2009),Crime
+245,Mystic River (1983),Mystery
+246,Don't Breathe (1986),Thriller
+247,The Cabin in the Woods (1994),Horror|Musical
+248,Heat (1979),Action
+249,Split (1990),Thriller
+250,Klaus (1980),Animation|Mystery
+251,Percy Jackson (1988),Fantasy
+252,Grease (2011),Musical
+253,Fiddler on the Roof (1980),Musical|Adventure
+254,Searching (2017),Thriller|Action|Fantasy
+255,Silver Linings Playbook (1972),Romance|Western
+256,The Killing (1981),Film-Noir
+257,King Kong (2017),Adventure
+258,Eragon (2016),Fantasy
+259,A Monster Calls (1992),Fantasy
+260,Gravity (1990),Sci-Fi|Romance
+261,Looper (2000),Sci-Fi
+262,Hairspray (1975),Musical|Animation
+263,A Simple Plan (1988),Thriller
+264,The Avengers (2007),Action|Musical
+265,American Beauty (1991),Drama|Documentary
+266,Soul (1980),Animation|Action|Crime
+267,Primal Fear (1996),Mystery|Musical
+268,They Shall Not Grow Old (2010),Documentary
+269,Letters from Iwo Jima (2017),War|Horror|Sci-Fi
+270,Insomnia (2012),Mystery
+271,Midnight in Paris (2012),Comedy|Documentary|Action
+272,Uncut Gems (2014),Thriller
+273,The Magnificent Seven (2008),Western|Sci-Fi|Documentary
+274,Gattaca (2010),Sci-Fi|Adventure
+275,Dances with Wolves (2001),Western|Adventure
+276,Wind River (2012),Thriller|Crime|Film-Noir
+277,Borat (1987),Comedy
+278,Your Name (1996),Animation
+279,Contact (1996),Sci-Fi|Romance
+280,Green Room (1999),Thriller
+281,Fyre (1974),Documentary
+282,Alice in Wonderland (1996),Fantasy|Adventure
+283,Bone Tomahawk (2017),Western
+284,Training Day (1978),Crime
+285,Willow (2000),Fantasy|Documentary
+286,Notorious (1972),Film-Noir|Romance
+287,Howl's Moving Castle (2002),Animation
+288,American Gangster (1973),Crime
+289,Mulholland Drive (2016),Mystery|Thriller
+290,Dark City (1977),Sci-Fi|Comedy
+291,Snowpiercer (2007),Sci-Fi
+292,The Iron Giant (2013),Animation
+293,Sweeney Todd (2001),Musical
+294,Saw (2007),Horror|Fantasy|Film-Noir
+295,The Postman Always Rings Twice (2017),Film-Noir
+296,Catch Me If You Can (2013),Crime|Film-Noir
+297,Dumb and Dumber (2012),Comedy|Thriller
+298,Mamma Mia! (1971),Musical
+299,Das Boot (1989),War|Horror
+300,The Invisible Man (2003),Thriller
+301,Black Panther (2009),Action
+302,The Hangover (1993),Comedy|Sci-Fi
+303,Edge of Tomorrow (1982),Action|Film-Noir
+304,The Irishman (2008),Crime
+305,Wild Wild Country (1999),Documentary|Horror|Sci-Fi
+306,The NeverEnding Story (2011),Fantasy|Animation
+307,The Outlaw Josey Wales (1975),Western|Action
+308,The Wizard of Oz: Chapter II (1984),Fantasy
+309,Pale Rider (1972),Western
+310,Fantastic Mr. Fox (1990),Animation|War
+311,Road to Perdition (1993),Crime
+312,Public Enemies (2002),Crime
+313,Howl's Moving Castle: Redemption (2012),Animation
+314,Open Range (1995),Western|Drama
+315,The Witch (1992),Horror|War
+316,Enemy at the Gates (1976),War|Adventure
+317,"Monsters, Inc.: Legacy (1998)",Animation
+318,The Social Dilemma (2009),Documentary
+319,Hell or High Water (1978),Western
+320,Insidious (1996),Horror
+321,Spider-Man: Into the Spider-Verse: Chronicles (1971),Animation
+322,Pale Rider: Chronicles (1982),Western|Action
+323,The Sixth Sense (1971),Mystery|Horror
+324,A Haunting in Venice (1985),Mystery
+325,O.J.: Made in America (1988),Documentary
+326,Fury (1999),War
+327,Grave of the Fireflies: Reckoning (1985),Animation
+328,Key Largo (1970),Film-Noir|Musical
+329,Sherlock Holmes (2005),Mystery
+330,Double Indemnity: Chapter II (1980),Film-Noir
+331,Once Upon a Time in the West: Legacy (1975),Western|Mystery|Musical
+332,Amy (2007),Documentary
+333,The Fugitive: Vol. 2 (2009),Thriller|Sci-Fi
+334,The NeverEnding Story: Chapter II (2006),Fantasy|Film-Noir
+335,Alice in Wonderland: Legacy (1989),Fantasy
+336,Lone Survivor (1974),War|Drama|Fantasy
+337,Annihilation (2011),Sci-Fi|Fantasy
+338,Solaris (2017),Sci-Fi
+339,Roman Holiday (1989),Romance
+340,Notorious: Reckoning (2013),Film-Noir|Horror
+341,Rocketman (2017),Musical|Comedy
+342,Mean Girls (2006),Comedy
+343,Donnie Brasco (1993),Crime|Horror
+344,The Shape of Water: Returns (2005),Fantasy
+345,Willow: Redemption (1989),Fantasy
+346,The Godfather: Origins (2001),Crime
+347,The Fifth Element (2017),Sci-Fi
+348,Your Name: Reckoning (1983),Animation|Sci-Fi|Crime
+349,The Princess Bride (2011),Adventure
+350,Fatal Attraction: Redemption (1987),Thriller|Western
+351,The Goonies (1995),Adventure|Western
+352,Edward Scissorhands: Legacy (1972),Fantasy
+353,The Chronicles of Narnia: Chronicles (2001),Fantasy|Romance
+354,Bohemian Rhapsody (1982),Musical|Western
+355,Pan's Labyrinth: Reckoning (2010),Fantasy
+356,WALL-E: Rising (2013),Animation
+357,Sinister (1991),Horror|Musical
+358,The Mummy (1998),Adventure
+359,Top Gun: Maverick (2014),Action|Romance
+360,Glass Onion: Final Cut (1979),Mystery|Action|Comedy
+361,Tenet (2011),Sci-Fi
+362,Prisoners: Chapter II (1984),Mystery
+363,We Were Soldiers (1974),War
+364,Phantom of the Opera (1971),Musical|Horror
+365,Good Will Hunting (1983),Drama
+366,Poltergeist (2014),Horror|Documentary
+367,Kiss Me Deadly: Vol. 2 (1996),Film-Noir|Comedy
+368,The Wizard of Oz: Reckoning (1977),Fantasy
+369,E.T. the Extra-Terrestrial (2008),Sci-Fi|Western
+370,Rosemary's Baby (1984),Horror|Comedy|Romance
+371,The Maltese Falcon: Vol. 2 (1995),Film-Noir|Musical|Fantasy
+372,Shadow of a Doubt: Final Cut (2007),Film-Noir
+373,How to Train Your Dragon: Final Cut (2004),Animation|War|Western
+374,Clerks (2016),Comedy
+375,Ip Man (1978),Action
+376,Rear Window: Chronicles (2012),Mystery|Crime
+377,Treasure Island (2012),Adventure|Thriller|Action
+378,Pulp Fiction: Legacy (1992),Crime|Comedy
+379,Shadow of a Doubt: Chronicles (2007),Film-Noir
+380,The Fugitive: Chronicles (2014),Thriller|Drama
+381,The Night of the Hunter: Redemption (1999),Film-Noir|Action
+382,Oliver! (2010),Musical
+383,Evil Dead II (1981),Horror|Animation|Musical
+384,A Star Is Born (2007),Musical|Drama
+385,Identity: Rising (1973),Mystery
+386,The Green Mile (1993),Drama|Mystery
+387,When Harry Met Sally... (1979),Romance|Drama
+388,The Raid: Redemption (2005),Action|Horror
+389,Platoon: Rising (2015),War|Crime
+390,What We Do in the Shadows (1992),Comedy
+391,Skyfall (2008),Action|Thriller|Comedy
+392,Chinatown: Legacy (2000),Crime
+393,Close Encounters of the Third Kind (1991),Sci-Fi
+394,Wind River: Redemption (2017),Thriller
+395,Pan's Labyrinth: Final Cut (1971),Fantasy|Sci-Fi
+396,The Greatest Showman: Vol. 2 (1971),Musical|Fantasy|Crime
+397,Into the Wild (1984),Adventure|Action|Comedy
+398,Howl's Moving Castle: Legacy (2005),Animation|Adventure|Horror
+399,The Searchers: Returns (2000),Western
+400,The Conjuring: Redemption (2006),Horror
+401,Solaris: Vol. 2 (2006),Sci-Fi|Horror|Film-Noir
+402,Icarus (2009),Documentary|Romance
+403,High Noon: Rising (1985),Western|Horror|Mystery
+404,127 Hours (1983),Adventure|Documentary
+405,Rushmore (1993),Comedy
+406,Donnie Brasco: Chapter II (1974),Crime|Adventure
+407,Spotlight (1999),Drama
+408,Airplane!: Chapter II (1983),Comedy
+409,The Dawn Wall (1973),Documentary
+410,Fatal Attraction: Reckoning (2017),Thriller
+411,Room (1993),Drama|Western|Fantasy
+412,RoboCop (1974),Action|Film-Noir|Drama
+413,Halloween: Chronicles (2014),Horror
+414,The Hurt Locker: Final Cut (1988),War|Animation|Documentary
+415,Your Name: Rising (1997),Animation|Horror|Comedy
+416,Finding Nemo: Returns (2009),Animation
+417,District 9: Returns (1986),Sci-Fi|Western|Comedy
+418,The Thing: Redemption (2010),Horror
+419,Man on Wire: Legacy (2002),Documentary
+420,Everest (2008),Adventure|Romance|Musical
+421,E.T. the Extra-Terrestrial: Vol. 2 (2015),Sci-Fi
+422,Dark City: Redemption (1993),Sci-Fi
+423,Rushmore: Final Cut (2000),Comedy
+424,Letters from Iwo Jima: Final Cut (1994),War|Romance
+425,Hairspray: Rising (1977),Musical
+426,The Pianist (2002),Drama
+427,Boyhood (2009),Drama|Romance|Animation
+428,A Quiet Place: Origins (2014),Horror|Thriller|Romance
+429,Contact: Returns (2017),Sci-Fi
+430,Once Upon a Time in the West: Chapter II (2014),Western
+431,Portrait of a Lady on Fire (2000),Romance|Comedy
+432,Call Me by Your Name (1981),Romance|Crime
+433,West Side Story: Origins (1994),Musical
+434,Insidious: Origins (2001),Horror
+435,Sweet Smell of Success: Final Cut (1997),Film-Noir
+436,Alien: Reckoning (1999),Horror
+437,The Bridge on the River Kwai: Final Cut (1992),War
+438,Shrek: Vol. 2 (1980),Animation
+439,Coco: Vol. 2 (1975),Animation|Musical
+440,The Lord of the Rings: The Return of the King: Chronicles (1994),Fantasy
+441,Lone Survivor: Redemption (2010),War
+442,Black Hawk Down: Chronicles (1977),War|Musical
+443,Baby Driver (1993),Action
+444,Cabaret: Reckoning (1996),Musical
+445,The Greatest Showman: Returns (1980),Musical|Adventure
+446,Memento: Redemption (2004),Mystery
+447,Primal Fear: Origins (1985),Mystery
+448,Primal Fear: Chronicles (2014),Mystery|Romance|Action
+449,Dune: Part One (1980),Adventure|Thriller|Documentary
+450,Inglourious Basterds: Vol. 2 (2003),War
+451,The Dawn Wall: Legacy (2017),Documentary|Action
+452,Chicago: Rising (1984),Musical|Crime|Action
+453,The Secret Life of Walter Mitty (1995),Adventure
+454,Predator (2007),Action
+455,First Blood (1997),Action
+456,Big Fish: Vol. 2 (1973),Fantasy|Western
+457,Point Break (1970),Action|Sci-Fi
+458,Don't Breathe: Chapter II (2017),Thriller
+459,Hell or High Water: Rising (1992),Western|Comedy
+460,The Social Dilemma: Chapter II (1980),Documentary
+461,Gone Girl: Rising (1992),Thriller|Crime
+462,Ex Machina: Legacy (2004),Sci-Fi|Mystery|Comedy
+463,The Silence of the Lambs: Legacy (2007),Horror|Fantasy|Drama
+464,Saw: Chronicles (1988),Horror|Musical|Thriller
+465,Nightcrawler: Returns (2002),Thriller|Adventure|Drama
+466,Groundhog Day: Vol. 2 (1992),Comedy
+467,Skyfall: Origins (1991),Action
+468,Blade Runner 2049: Returns (2010),Sci-Fi
+469,American Gangster: Origins (2007),Crime|Western|Drama
+470,Ferris Bueller's Day Off: Vol. 2 (1995),Comedy
+471,A Simple Plan: Reckoning (2012),Thriller
+472,Hot Fuzz: Vol. 2 (1981),Comedy|Western|Film-Noir
+473,The Invisible Man: Legacy (1994),Thriller|Action
+474,Your Name: Redemption (2002),Animation|Musical
+475,Jungle Cruise (2007),Adventure|Western
+476,The Bourne Ultimatum: Rising (2017),Action
+477,School of Rock: Vol. 2 (2011),Comedy
+478,Looper: Chronicles (1974),Sci-Fi|Film-Noir
+479,Star Wars: The Empire Strikes Back: Legacy (2015),Sci-Fi|Horror
+480,Once Upon a Time in the West: Rising (1973),Western
+481,Babel (1978),Drama
+482,Memento: Final Cut (1991),Mystery|Action
+483,Pale Rider: Legacy (1976),Western|Mystery|Crime
+484,Saw: Legacy (1989),Horror
+485,La La Land: Chronicles (1988),Musical
+486,Carol (1991),Romance|Sci-Fi
+487,Your Name: Chapter II (1980),Animation
+488,Drive My Car (1972),Drama
+489,High Noon: Chronicles (1970),Western|Adventure|Thriller
+490,Joker: Rising (1993),Thriller
+491,The Matrix: Vol. 2 (1972),Sci-Fi|Crime
+492,A Quiet Place: Redemption (2017),Horror
+493,Sinister: Returns (2014),Horror
+494,Little Women (1978),Romance|Comedy
+495,Finding Nemo: Vol. 2 (1983),Animation
+496,Scarface: Final Cut (1973),Crime
+497,127 Hours: Returns (2003),Adventure|War
+498,The Shape of Water #498 (1987),Fantasy|Musical
+499,Me Before You (2005),Romance|Horror
+500,The Dark Crystal: Legacy (1988),Fantasy
+501,2001: A Space Odyssey: Chronicles (1975),Sci-Fi
+502,The Fifth Element: Reckoning (1995),Sci-Fi
+503,Bowling for Columbine: Reckoning (2012),Documentary
+504,Letters from Iwo Jima: Returns (1973),War|Western
+505,Singin' in the Rain: Chronicles (2005),Musical
+506,Apocalypse Now: Reckoning (1999),War
+507,Black Hawk Down #507 (2011),War
+508,13th: Legacy (1981),Documentary
+509,Tombstone: Vol. 2 (1981),Western
+510,Shrek: Origins (1986),Animation|Action
+511,Midsommar: Origins (2013),Horror|Romance|Western
+512,Hacksaw Ridge: Returns (1993),War
+513,"Monsters, Inc.: Chronicles (2008)",Animation|Romance
+514,Looper: Vol. 2 (2015),Sci-Fi|Musical
+515,Psycho: Chapter II (1993),Horror|Mystery
+516,Edge of Tomorrow: Vol. 2 (1976),Action
+517,Parasite: Chronicles (1998),Thriller|Crime
+518,Donnie Brasco: Legacy (1977),Crime
+519,Hereditary: Reckoning (1980),Horror
+520,Gattaca: Returns (2007),Sci-Fi|Musical|War
+521,Sicario: Reckoning (1982),Thriller|Mystery
+522,Jurassic Park: Origins (1975),Adventure
+523,Zoolander: Chapter II (1994),Comedy|Mystery
+524,Birdman: Redemption (2003),Drama|Fantasy|Comedy
+525,School of Rock: Redemption (2017),Comedy|Horror
+526,Fyre: Vol. 2 (1974),Documentary|Mystery
+527,The Pianist: Returns (1986),Drama
+528,The Prestige: Legacy (2004),Mystery
+529,Ratatouille: Legacy (2001),Animation
+530,Mad Max: Fury Road: Final Cut (1977),Action
+531,Lone Survivor: Chapter II (1987),War
+532,Rushmore: Rising (1992),Comedy|Western
+533,Mad Max: Fury Road: Chapter II (1998),Action|Sci-Fi|Fantasy
+534,Icarus: Returns (1993),Documentary
+535,Contact: Vol. 2 (1978),Sci-Fi
+536,Arrival: Chapter II (2015),Sci-Fi|Film-Noir
+537,The Outlaw Josey Wales: Chronicles (2013),Western|Thriller
+538,The Searchers: Chronicles (2009),Western
+539,Mean Girls: Chronicles (1980),Comedy|Action|Film-Noir
+540,The Irishman: Legacy (1997),Crime
+541,King Kong: Chronicles (1983),Adventure|Comedy|Thriller
+542,The Green Mile: Legacy (1999),Drama|Fantasy
+543,127 Hours: Final Cut (2009),Adventure
+544,Apocalypse Now: Final Cut (2006),War
+545,Brooklyn (1982),Romance|Action|Crime
+546,Eternal Sunshine of the Spotless Mind: Reckoning (1975),Romance
+547,Sinister: Final Cut (2011),Horror|Documentary
+548,Searching: Vol. 2 (1972),Thriller
+549,Reservoir Dogs: Redemption (1996),Crime
+550,Casino: Rising (2014),Crime
+551,The Fugitive: Redemption (1977),Thriller|Musical|Documentary
+552,Collateral: Origins (1990),Thriller
+553,Inglourious Basterds: Returns (1998),War
+554,The Social Network: Chronicles (1996),Drama
+555,The Dark Knight: Returns (2009),Action|Mystery
+556,Hell or High Water: Final Cut (1972),Western
+557,Sunset Boulevard: Chronicles (1981),Film-Noir|Adventure
+558,Zootopia: Legacy (1972),Animation|Western
+559,The Outlaw Josey Wales: Redemption (1994),Western
+560,Before Sunset: Rising (2009),Romance|Drama|Animation
+561,Schindler's List: Legacy (1987),Drama|War|Film-Noir
+562,Tropic Thunder: Redemption (2000),Comedy|Film-Noir|Musical
+563,The Untouchables: Returns (2003),Crime
+564,Dumb and Dumber: Redemption (2015),Comedy
+565,Fury: Chapter II (2001),War|Documentary
+566,The Secret Life of Walter Mitty: Vol. 2 (1998),Adventure
+567,Casino Royale: Chronicles (2011),Action|Horror
+568,Blade Runner 2049: Redemption (2015),Sci-Fi|Western
+569,Gone Girl: Chronicles (2006),Thriller|Crime
+570,Rushmore: Vol. 2 (1971),Comedy
+571,Before Sunset: Redemption (1980),Romance
+572,The Hateful Eight: Final Cut (1973),Western
+573,Tombstone: Rising (1983),Western|Adventure
+574,Rear Window: Redemption (2007),Mystery
+575,Primal Fear: Returns (2013),Mystery|War|Romance
+576,Stand by Me: Chapter II (1988),Adventure
+577,Groundhog Day: Reckoning (1980),Comedy
+578,500 Days of Summer: Chapter II (1997),Romance|Mystery
+579,The Shining: Rising (2000),Horror
+580,The Iron Giant: Origins (2002),Animation|Mystery
+581,Klaus: Redemption (1995),Animation
+582,One Flew Over the Cuckoo's Nest: Returns (1970),Drama
+583,Good Will Hunting: Reckoning (1994),Drama
+584,Zootopia: Chapter II (1972),Animation|Thriller
+585,West Side Story: Chronicles (1989),Musical|Horror|Action
+586,Dunkirk: Vol. 2 (2009),War
+587,Casablanca: Rising (2010),Romance|Fantasy|Action
+588,Open Range: Vol. 2 (2006),Western
+589,Chicago: Reckoning (2002),Musical
+590,Drive: Chapter II (1983),Thriller|Drama
+591,Searching for Sugar Man: Rising (1979),Documentary
+592,Singin' in the Rain: Rising (2014),Musical|Thriller
+593,Tombstone: Legacy (1971),Western|Comedy|Animation
+594,The Pianist: Chronicles (1995),Drama|War
+595,Paths of Glory: Vol. 2 (1990),War|Comedy|Crime
+596,The Fault in Our Stars: Final Cut (1978),Romance|Thriller
+597,Howl's Moving Castle: Origins (1979),Animation
+598,Amélie: Origins (2009),Romance|Drama
+599,Platoon: Reckoning (1983),War|Horror
+600,The Lord of the Rings: The Fellowship of the Ring: Origins (1971),Adventure|Crime
+601,The Chronicles of Narnia: Reckoning (1973),Fantasy
+602,Wind River: Legacy (2006),Thriller
+603,Prisoners: Origins (2016),Mystery
+604,What We Do in the Shadows: Chronicles (2000),Comedy|Drama|Sci-Fi
+605,Collateral: Chapter II (1990),Thriller|Film-Noir
+606,Mystic River: Legacy (2001),Mystery
+607,Rear Window: Returns (2004),Mystery
+608,A Fistful of Dollars: Redemption (1994),Western|Crime
+609,Star Wars: The Empire Strikes Back #609 (1993),Sci-Fi
+610,La La Land: Legacy (2003),Musical
+611,The Night of the Hunter: Rising (2005),Film-Noir
+612,Out of the Past: Chronicles (2003),Film-Noir
+613,Misery: Rising (1978),Thriller
+614,Fury: Reckoning (1989),War
+615,Sherlock Holmes: Vol. 2 (1999),Mystery
+616,Speed: Chapter II (2002),Action
+617,WALL-E: Redemption (2015),Animation
+618,The Big Sleep: Final Cut (2003),Film-Noir
+619,500 Days of Summer #619 (1973),Romance
+620,2001: A Space Odyssey: Final Cut (1990),Sci-Fi
+621,Midsommar: Rising (2008),Horror|Drama|Crime
+622,E.T. the Extra-Terrestrial: Rising (1986),Sci-Fi
+623,Sweet Smell of Success #623 (1999),Film-Noir
+624,Training Day: Chronicles (1973),Crime|Mystery
+625,Labyrinth: Final Cut (1976),Fantasy
+626,Get Out: Redemption (2016),Horror|Western
+627,The Silence of the Lambs: Reckoning (1976),Horror
+628,The Godfather: Vol. 2 (1985),Crime
+629,Dumb and Dumber: Legacy (1973),Comedy|Fantasy
+630,Gilda: Reckoning (1977),Film-Noir
+631,Star Wars: A New Hope: Rising (1987),Adventure|Musical
+632,Annihilation: Rising (1981),Sci-Fi
+633,West Side Story: Redemption (1982),Musical
+634,Borat: Redemption (1973),Comedy
+635,The Fifth Element #635 (1975),Sci-Fi|Musical
+636,Black Hawk Down: Reckoning (1995),War
+637,Boyhood: Redemption (2010),Drama|Comedy
+638,Dark City: Origins (1983),Sci-Fi
+639,Get Out: Reckoning (1981),Horror
+640,Sherlock Holmes: Reckoning (2007),Mystery|Animation
+641,The Searchers: Final Cut (2015),Western|Comedy
+642,Snowpiercer: Redemption (2002),Sci-Fi
+643,For a Few Dollars More: Vol. 2 (1982),Western
+644,Saving Private Ryan: Redemption (2013),War
+645,Inglourious Basterds: Legacy (2010),War|Horror|Thriller
+646,Mission: Impossible - Fallout: Final Cut (1990),Action
+647,Mean Girls: Rising (1976),Comedy
+648,L.A. Confidential: Returns (1989),Crime|Drama
+649,Identity: Legacy (2007),Mystery
+650,Primal Fear #650 (1982),Mystery|Sci-Fi
+651,Rushmore: Origins (2008),Comedy
+652,Pan's Labyrinth: Redemption (1980),Fantasy
+653,Roman Holiday: Final Cut (1992),Romance
+654,Fatal Attraction: Chronicles (2003),Thriller
+655,Baby Driver: Legacy (1982),Action|Animation|Musical
+656,Cabaret: Legacy (2004),Musical|Drama
+657,Rear Window: Origins (2016),Mystery
+658,Toy Story: Chapter II (1988),Animation|Action
+659,Raiders of the Lost Ark: Returns (1992),Action|Crime
+660,Hell or High Water: Chronicles (1977),Western|Sci-Fi
+661,Das Boot: Reckoning (1972),War
+662,A Haunting in Venice: Final Cut (2001),Mystery
+663,Casino: Reckoning (2017),Crime|Western
+664,Oldboy: Reckoning (1992),Action
+665,The Fugitive: Origins (2014),Thriller
+666,Saving Private Ryan: Chronicles (1986),War|Thriller
+667,Skyfall: Reckoning (2015),Action|Animation
+668,Vertigo: Origins (2013),Mystery|Action
+669,Fury: Returns (1979),War
+670,Singin' in the Rain: Vol. 2 (1985),Musical|Romance
+671,Les Misérables: Chronicles (1980),Musical
+672,L.A. Confidential: Origins (1988),Crime|Horror
+673,Percy Jackson: Vol. 2 (1986),Fantasy|War
+674,Heat: Final Cut (1982),Action|Western
+675,Reservoir Dogs: Returns (1990),Crime|Documentary
+676,A Simple Plan: Vol. 2 (1993),Thriller|Musical
+677,Panic Room: Vol. 2 (2002),Thriller|Adventure
+678,Mamma Mia!: Origins (2017),Musical|Film-Noir
+679,The Raid: Redemption: Returns (2010),Action|Fantasy
+680,Looper: Redemption (1989),Sci-Fi|Comedy
+681,Close Encounters of the Third Kind: Legacy (1992),Sci-Fi|Comedy
+682,Clerks: Redemption (1986),Comedy|Horror
+683,The Killing: Returns (1993),Film-Noir
+684,Edge of Tomorrow: Legacy (1973),Action
+685,Apollo 11: Returns (1970),Documentary|War
+686,March of the Penguins: Redemption (2011),Documentary|Drama
+687,"Monsters, Inc.: Redemption (2011)",Animation
+688,Butch Cassidy and the Sundance Kid: Rising (1975),Western
+689,First Blood: Vol. 2 (1986),Action
+690,Full Metal Jacket: Origins (2011),War|Musical|Animation
+691,Spider-Man: Into the Spider-Verse: Legacy (1977),Animation|Crime
+692,Hairspray: Origins (2015),Musical
+693,Stardust: Chronicles (1977),Fantasy
+694,Fyre: Reckoning (1998),Documentary
+695,Reservoir Dogs: Vol. 2 (2010),Crime|Documentary
+696,Identity: Reckoning (1975),Mystery|Crime|Comedy
+697,Mad Max: Fury Road: Legacy (2007),Action|War
+698,Moonlight: Reckoning (1973),Drama
+699,The Postman Always Rings Twice: Chapter II (2009),Film-Noir
+700,The Postman Always Rings Twice: Reckoning (1982),Film-Noir|Drama|Sci-Fi
+701,Midnight in Paris: Chapter II (2005),Comedy
+702,The Game: Redemption (1983),Thriller
+703,Skyfall #703 (2017),Action
+704,Midsommar: Vol. 2 (1998),Horror|Musical|Adventure
+705,Rosemary's Baby: Vol. 2 (2003),Horror|Western
+706,Everest: Legacy (1975),Adventure|War
+707,Rocketman: Legacy (2016),Musical
+708,Aliens: Reckoning (1970),Action
+709,Mystic River: Chapter II (1980),Mystery|Crime
+710,The Night of the Hunter #710 (1973),Film-Noir
+711,They Shall Not Grow Old: Origins (2013),Documentary|Comedy
+712,Wild Wild Country: Origins (1970),Documentary
+713,Annihilation: Vol. 2 (1989),Sci-Fi
+714,The Shawshank Redemption: Reckoning (2013),Drama
+715,Open Range: Final Cut (2007),Western|Thriller
+716,Sinister: Chapter II (2017),Horror|Action
+717,Groundhog Day #717 (1973),Comedy
+718,Scarface: Returns (2010),Crime|Romance|Horror
+719,The Untouchables: Chapter II (1975),Crime|Comedy|Musical
+720,Apollo 11: Reckoning (1986),Documentary
+721,Step Brothers: Legacy (1992),Comedy
+722,Crazy Rich Asians: Rising (2010),Romance
+723,The Texas Chain Saw Massacre: Reckoning (2005),Horror|Mystery|Fantasy
+724,Halloween: Reckoning (2000),Horror|Sci-Fi
+725,3:10 to Yuma: Chronicles (1991),Western
+726,Silver Linings Playbook: Chapter II (2009),Romance|Western
+727,Pale Rider: Chapter II (1998),Western
+728,Gilda: Legacy (1976),Film-Noir|War|Fantasy
+729,Clerks: Chronicles (1978),Comedy
+730,Drive My Car: Chapter II (1976),Drama
+731,Donnie Brasco #731 (1995),Crime|Western
+732,Vertigo: Legacy (1999),Mystery|Adventure
+733,Free Solo: Final Cut (1998),Documentary|Action
+734,Pirates of the Caribbean: The Curse of the Black Pearl: Legacy (2017),Adventure|Crime
+735,Drive: Returns (1998),Thriller
+736,Top Gun: Maverick: Chronicles (2015),Action
+737,The Hangover: Legacy (2014),Comedy
+738,Parasite: Redemption (1993),Drama
+739,Skyfall: Rising (1982),Action|Mystery|Thriller
+740,Black Swan: Final Cut (2007),Thriller|Crime|Mystery
+741,The Witch: Chronicles (2011),Horror|Action
+742,Drive My Car: Origins (2014),Drama|Mystery
+743,About Time: Chronicles (1984),Romance|Western
+744,The Hangover: Chapter II (1988),Comedy|Drama|Crime
+745,Anchorman: The Legend of Ron Burgundy: Final Cut (1977),Comedy
+746,For a Few Dollars More: Reckoning (2004),Western|Horror|Film-Noir
+747,Ip Man: Legacy (1997),Action
+748,Star Wars: A New Hope: Final Cut (1983),Adventure
+749,Me Before You: Legacy (1973),Romance
+750,Shutter Island: Redemption (1977),Mystery|Action|Sci-Fi
+751,Key Largo: Chronicles (2008),Film-Noir
+752,Icarus: Chapter II (1992),Documentary
+753,Chinatown: Vol. 2 (1974),Crime|Sci-Fi
+754,Sweeney Todd: Rising (2012),Musical|Sci-Fi|Fantasy
+755,Zodiac: Vol. 2 (2014),Mystery|Horror
+756,In a Lonely Place: Chapter II (1979),Film-Noir|Western
+757,The Dark Crystal: Returns (1987),Fantasy
+758,The Departed: Reckoning (1974),Crime|Thriller|Sci-Fi
+759,Scream: Returns (2012),Horror|Thriller
+760,Road to Perdition: Origins (2000),Crime|Sci-Fi
+761,Sweet Smell of Success: Origins (1990),Film-Noir
+762,Stardust: Vol. 2 (2003),Adventure|Documentary
+763,A Haunting in Venice: Redemption (1994),Mystery
+764,Mean Girls: Vol. 2 (1988),Comedy|Documentary
+765,Midnight in Paris: Returns (2017),Comedy|Crime
+766,Gravity: Final Cut (1981),Sci-Fi
+767,Out of the Past: Rising (1982),Film-Noir
+768,Amélie: Chronicles (1974),Romance|Musical
+769,Coco: Returns (1995),Animation|Mystery
+770,"Monsters, Inc.: Returns (1988)",Animation
+771,The Avengers: Final Cut (1984),Action
+772,The Fifth Element #772 (1998),Sci-Fi|Drama
+773,Princess Mononoke: Chapter II (2010),Animation|Sci-Fi
+774,The Mummy: Rising (1992),Adventure
+775,Arrival: Returns (2017),Sci-Fi
+776,The Matrix: Rising (2003),Action
+777,The Prestige: Rising (2008),Drama
+778,Coco: Final Cut (1991),Animation|Adventure
+779,Jungle Cruise: Redemption (2016),Adventure|Musical
+780,Amy: Chapter II (1973),Documentary|Western
+781,The Killing: Legacy (1985),Film-Noir
+782,The Maltese Falcon: Legacy (2009),Film-Noir|Action
+783,Rushmore: Reckoning (2010),Comedy
+784,Night and the City: Vol. 2 (2012),Film-Noir
+785,High Noon: Returns (2006),Western
+786,Enemy at the Gates: Returns (1982),War
+787,Saving Private Ryan #787 (1987),War
+788,No Country for Old Men: Legacy (2012),Crime|Adventure
+789,The Conjuring: Legacy (2009),Horror|Thriller|Mystery
+790,No Country for Old Men: Final Cut (2007),Crime
+791,Fiddler on the Roof: Returns (2016),Musical
+792,Dark City: Vol. 2 (1971),Sci-Fi
+793,Gilda #793 (1975),Film-Noir|Sci-Fi|Thriller
+794,Amy: Rising (1973),Documentary|Film-Noir
+795,Léon: The Professional: Returns (2010),Action|Thriller
+796,The Martian: Redemption (1979),Sci-Fi|Mystery|Adventure
+797,The Martian: Legacy (1973),Sci-Fi|Romance
+798,Indiana Jones and the Last Crusade: Legacy (1983),Adventure|Musical|Sci-Fi
+799,Knives Out: Chronicles (1974),Mystery|War|Fantasy
+800,Lone Survivor: Origins (2007),War|Adventure|Drama
+801,Sicario: Legacy (1985),Thriller
+802,Stardust: Returns (1988),Adventure
+803,The Martian: Final Cut (1976),Sci-Fi|Fantasy|Crime
+804,A Monster Calls: Final Cut (2005),Fantasy
+805,Cabaret: Chronicles (1979),Musical
+806,Get Out #806 (1989),Horror|Documentary
+807,The Shape of Water: Rising (2002),Fantasy|Horror
+808,The Searchers: Redemption (1984),Western|Film-Noir|Comedy
+809,Saving Private Ryan: Vol. 2 (1988),War
+810,The Prestige: Redemption (2009),Mystery
+811,Unforgiven: Chapter II (1991),Western|Romance
+812,Notorious: Redemption (1988),Film-Noir|Animation
+813,True Grit: Returns (2012),Western
+814,Gone Girl: Chapter II (2015),Thriller
+815,Portrait of a Lady on Fire: Redemption (2008),Romance
+816,Sicario: Returns (1988),Crime|Thriller
+817,Looper: Rising (1978),Sci-Fi|Film-Noir
+818,The Notebook: Chapter II (2005),Romance|Film-Noir|Crime
+819,Coraline: Returns (2015),Fantasy
+820,Fight Club: Chronicles (1976),Drama
+821,The Night of the Hunter: Returns (1980),Film-Noir
+822,Groundhog Day: Final Cut (1972),Comedy|Adventure
+823,Klaus: Chapter II (2011),Animation|Fantasy
+824,The Truman Show: Origins (2013),Comedy
+825,The Hangover: Redemption (1982),Comedy|Drama
+826,Zodiac: Legacy (1984),Mystery|Animation|Adventure
+827,Fight Club: Vol. 2 (1980),Drama
+828,Panic Room: Final Cut (1990),Thriller|Film-Noir
+829,Black Panther: Final Cut (1994),Action|War
+830,Raiders of the Lost Ark: Vol. 2 (2010),Action|Animation
+831,The Bridge on the River Kwai: Returns (1992),War
+832,Point Break: Returns (2017),Action
+833,Cape Fear: Final Cut (1979),Thriller
+834,The Fault in Our Stars: Redemption (2007),Romance|Mystery
+835,Oliver!: Final Cut (2005),Musical|Documentary
+836,Jurassic Park: Final Cut (1996),Adventure|War
+837,1917: Legacy (2015),War
+838,Strangers on a Train: Redemption (2004),Film-Noir
+839,The Fifth Element: Chronicles (1980),Sci-Fi|Action|Animation
+840,Up: Legacy (2006),Animation
+841,Cast Away: Vol. 2 (1985),Adventure|Film-Noir
+842,Schindler's List: Origins (1993),Drama|Action|War
+843,The Lord of the Rings: The Fellowship of the Ring: Reckoning (1998),Adventure
+844,Dances with Wolves: Final Cut (1997),Western
+845,Dead Poets Society: Redemption (1972),Drama
+846,The Silence of the Lambs #846 (2004),Horror|Western
+847,Gone Girl: Redemption (2011),Mystery
+848,Road to Perdition: Returns (1986),Crime|Sci-Fi|Musical
+849,Pan's Labyrinth: Legacy (2006),Fantasy|Adventure|Romance
+850,Stand by Me: Final Cut (1991),Adventure
+851,Top Gun: Maverick: Legacy (1976),Action
+852,Office Space: Chronicles (1989),Comedy|Action
+853,Phantom of the Opera: Legacy (1991),Musical|War
+854,Clerks: Origins (2015),Comedy|Thriller
+855,The Martian: Origins (1970),Sci-Fi|Crime|Mystery
+856,Full Metal Jacket: Chapter II (1997),War
+857,The Searchers #857 (1976),Western
+858,Everest: Final Cut (1986),Adventure
+859,Bridge to Terabithia: Returns (2010),Fantasy
+860,Before Sunrise: Returns (2011),Romance
+861,Green Room: Redemption (2000),Thriller
+862,The Night of the Hunter #862 (2015),Film-Noir|Mystery|Horror
+863,O.J.: Made in America: Vol. 2 (2010),Documentary
+864,Bone Tomahawk: Returns (2016),Western
+865,The Matrix: Final Cut (1986),Sci-Fi
+866,Won't You Be My Neighbor?: Reckoning (2001),Documentary|Action|Thriller
+867,The Chronicles of Narnia: Final Cut (1976),Fantasy
+868,Halloween: Chapter II (1984),Horror
+869,Alien: Legacy (1997),Horror|Thriller
+870,Sherlock Holmes: Final Cut (1974),Mystery|Western
+871,Drive #871 (1979),Crime
+872,Little Women: Redemption (1985),Romance|Fantasy|Horror
+873,We Were Soldiers: Chapter II (2004),War
+874,Evil Dead II: Origins (1993),Horror|Musical
+875,Midnight in Paris: Vol. 2 (1999),Comedy|Film-Noir
+876,Percy Jackson: Redemption (1989),Fantasy
+877,The Notebook: Final Cut (2006),Romance|Action
+878,Panic Room: Returns (1976),Thriller|Film-Noir
+879,Eternal Sunshine of the Spotless Mind: Returns (1981),Romance|Documentary
+880,Fiddler on the Roof: Reckoning (2017),Musical|Comedy|Documentary
+881,Minority Report: Rising (1988),Sci-Fi
+882,The Pianist #882 (2011),Drama
+883,Hereditary: Rising (2007),Horror
+884,Mission: Impossible - Fallout: Returns (1979),Action
+885,About Time: Reckoning (2017),Romance|Horror|Film-Noir
+886,Pale Rider #886 (2015),Western
+887,Kill Bill: Vol. 1: Chronicles (1999),Action|Romance
+888,Speed: Redemption (1987),Action|Musical
+889,The Chronicles of Narnia #889 (1998),Fantasy|Drama|Romance
+890,The Bridge on the River Kwai: Vol. 2 (1982),War
+891,Free Solo: Vol. 2 (1994),Documentary|Adventure
+892,Run Lola Run: Reckoning (1970),Thriller
+893,Se7en: Legacy (1978),Mystery|Documentary
+894,Roman Holiday: Rising (2010),Romance
+895,Hell or High Water: Returns (1989),Western|Adventure
+896,Catch Me If You Can: Returns (2001),Crime|Comedy
+897,Singin' in the Rain: Legacy (2007),Musical
+898,Coco #898 (1995),Animation|Horror
+899,Spider-Man: Into the Spider-Verse: Redemption (2015),Animation
+900,L.A. Confidential #900 (2016),Crime
+901,Monty Python and the Holy Grail: Chapter II (2017),Comedy|Western|Film-Noir
+902,Key Largo: Legacy (1995),Film-Noir|Romance
+903,The Searchers #903 (1992),Western
+904,Heat: Chapter II (2015),Action|Mystery
+905,Into the Wild: Reckoning (2011),Adventure
+906,The Sound of Music: Legacy (2007),Musical|Drama
+907,2001: A Space Odyssey: Returns (1975),Sci-Fi
+908,Jiro Dreams of Sushi: Origins (1997),Documentary|Horror
+909,Silver Linings Playbook: Redemption (1973),Romance|War|Animation
+910,Roman Holiday: Redemption (2002),Romance|Action|Mystery
+911,Source Code: Returns (1976),Mystery
+912,Speed: Legacy (1993),Thriller
+913,Mamma Mia!: Vol. 2 (1984),Musical
+914,Man on Wire: Reckoning (1981),Documentary|Animation|Western
+915,Moulin Rouge!: Final Cut (1999),Musical
+916,The Killing: Origins (2005),Film-Noir|Documentary|Animation
+917,The Sound of Music: Redemption (2013),Musical
+918,The Iron Giant: Reckoning (1982),Animation
+919,Knives Out: Vol. 2 (1989),Mystery
+920,Prisoners #920 (1984),Mystery
+921,Cabaret: Redemption (1982),Musical|Comedy
+922,We Were Soldiers: Final Cut (2012),War|Thriller
+923,The Pianist #923 (2015),Drama|Comedy
+924,Chicago: Returns (2010),Musical|Sci-Fi|Drama
+925,Notorious: Returns (2017),Film-Noir
+926,Scream: Rising (1972),Horror|Drama
+927,Zootopia: Vol. 2 (1987),Animation
+928,They Shall Not Grow Old: Returns (1980),Documentary
+929,Butch Cassidy and the Sundance Kid: Legacy (1991),Western
+930,High Noon: Final Cut (2011),Western
+931,Labyrinth: Legacy (1987),Fantasy|Western
+932,Sweet Smell of Success: Chapter II (1997),Film-Noir
+933,Fatal Attraction: Returns (1979),Thriller|Film-Noir
+934,Labyrinth: Reckoning (2015),Fantasy|Western
+935,Little Women: Origins (1999),Romance|Adventure
+936,The Mummy: Chapter II (1986),Adventure|Animation
+937,True Grit: Vol. 2 (2017),Western|Animation
+938,Grave of the Fireflies: Rising (2017),Animation
+939,The Wizard of Oz: Returns (2004),Fantasy|Drama
+940,West Side Story: Vol. 2 (1979),Musical
+941,It Follows: Chapter II (2012),Horror|Action
+942,Chicago #942 (1986),Musical|Crime
+943,Predator: Origins (2011),Action|Sci-Fi
+944,Eternal Sunshine of the Spotless Mind #944 (1986),Romance|Fantasy|Adventure
+945,Out of the Past #945 (1999),Film-Noir|Adventure
+946,Key Largo: Reckoning (1973),Film-Noir
+947,Uncut Gems: Chronicles (2013),Thriller|Film-Noir
+948,Predator: Rising (1983),Action
+949,The Fifth Element: Vol. 2 (2016),Sci-Fi|Film-Noir
+950,They Shall Not Grow Old: Rising (1996),Documentary|Adventure
+951,Klaus: Returns (1978),Animation|Western
+952,Dark City: Chapter II (1985),Sci-Fi|Fantasy
+953,The Witch #953 (1990),Horror|Adventure
+954,"Monsters, Inc. #954 (1999)",Animation
+955,The Thin Red Line: Chronicles (1984),War
+956,Panic Room: Chronicles (1989),Thriller
+957,Drive My Car: Chronicles (1980),Drama
+958,Kiss Me Deadly: Origins (2017),Film-Noir|Mystery|Fantasy
+959,Poltergeist: Redemption (1993),Horror
+960,Saving Private Ryan: Chapter II (2000),War
+961,Knives Out: Chapter II (2004),Mystery
+962,Ratatouille: Rising (1982),Animation
+963,A Fistful of Dollars: Reckoning (1990),Western
+964,Before Sunset: Legacy (1992),Romance
+965,Bohemian Rhapsody: Reckoning (1973),Musical
+966,The Avengers: Origins (1984),Action|Documentary
+967,The Searchers: Origins (1977),Western|Horror|Thriller
+968,Star Wars: A New Hope #968 (1994),Adventure
+969,Collateral: Final Cut (1981),Thriller|Adventure|Fantasy
+970,Top Gun: Maverick #970 (2007),Action
+971,Gattaca: Final Cut (2008),Sci-Fi
+972,The Truman Show: Legacy (2000),Comedy
+973,Percy Jackson #973 (1985),Fantasy
+974,Parasite #974 (1982),Drama|Crime|Sci-Fi
+975,Knives Out #975 (1996),Comedy
+976,Dances with Wolves: Redemption (2016),Western|Fantasy
+977,The Secret Life of Walter Mitty #977 (1973),Adventure|Sci-Fi
+978,Hereditary: Chronicles (2001),Horror
+979,Run Lola Run: Rising (1997),Thriller|Crime
+980,Willow #980 (1999),Fantasy
+981,Klaus: Reckoning (2005),Animation|Drama|Fantasy
+982,Apollo 11 #982 (1985),Documentary
+983,The Exorcist: Legacy (1998),Horror
+984,Atonement: Returns (1995),Romance|Mystery
+985,Monty Python and the Holy Grail: Legacy (1999),Comedy
+986,Birdman: Final Cut (1971),Drama|Crime
+987,Fiddler on the Roof: Final Cut (1980),Musical
+988,The Exorcist: Redemption (1984),Horror|Musical
+989,The Shining: Reckoning (1985),Horror|Musical
+990,Stand by Me #990 (1970),Adventure
+991,We Were Soldiers #991 (2011),War
+992,A Star Is Born: Returns (1978),Musical|Western|Fantasy
+993,Inglourious Basterds #993 (1983),War|Sci-Fi
+994,Mean Girls #994 (1976),Comedy|Fantasy
+995,Amélie: Legacy (1978),Romance
+996,Prisoners: Redemption (1970),Crime
+997,Touch of Evil: Chronicles (2010),Film-Noir
+998,Apocalypse Now: Redemption (2004),War
+999,Parasite: Chapter II (1978),Drama
+1000,Portrait of a Lady on Fire: Rising (1985),Romance
+1001,Dunkirk: Chronicles (1997),War|Musical
+1002,Gone Girl #1002 (2004),Mystery
+1003,Rushmore #1003 (2016),Comedy|Romance
+1004,The Big Sleep: Legacy (1999),Film-Noir|Musical
+1005,Scarface: Vol. 2 (2014),Crime|Western
+1006,Avatar: Vol. 2 (2004),Adventure|Romance
+1007,Bohemian Rhapsody: Redemption (2009),Musical
+1008,Black Swan: Redemption (1975),Thriller
+1009,The Mummy: Redemption (2014),Adventure|Sci-Fi
+1010,Stardust: Rising (1971),Adventure|Western|Film-Noir
+1011,RoboCop: Chronicles (1972),Action|Drama
+1012,Looper #1012 (1976),Sci-Fi|Action
+1013,Dunkirk: Legacy (1972),War
+1014,The Secret Life of Walter Mitty: Reckoning (2017),Adventure|Animation|Crime
+1015,Pale Rider: Rising (2015),Western
+1016,The Matrix: Reckoning (2008),Sci-Fi|Fantasy
+1017,"The Good, the Bad and the Ugly: Redemption (2011)",Western|Thriller
+1018,Pale Rider #1018 (2014),Western
+1019,Crazy Rich Asians #1019 (2010),Romance
+1020,The Fifth Element: Redemption (1979),Sci-Fi
+1021,The Avengers: Reckoning (2004),Action
+1022,Solaris: Rising (2016),Sci-Fi|Action
+1023,Psycho: Legacy (1997),Horror|Musical|Thriller
+1024,Silver Linings Playbook #1024 (1997),Romance
+1025,A Simple Plan #1025 (1985),Thriller
+1026,Back to the Future: Final Cut (1970),Adventure|Drama
+1027,The Revenant: Chronicles (2015),Adventure
+1028,Catch Me If You Can #1028 (1997),Crime|Drama|Fantasy
+1029,Road to Perdition: Redemption (1993),Crime
+1030,Carol: Reckoning (2004),Romance
+1031,Before Sunrise: Origins (1982),Romance
+1032,Won't You Be My Neighbor?: Chapter II (1982),Documentary
+1033,Shadow of a Doubt: Returns (1982),Film-Noir|Horror
+1034,WALL-E: Chronicles (1970),Animation|Western|Romance
+1035,The Shape of Water: Vol. 2 (1974),Fantasy|Animation
+1036,The Truman Show: Reckoning (1997),Comedy
+1037,The Goonies: Rising (1971),Adventure|Documentary
+1038,The Fifth Element #1038 (1995),Sci-Fi|Action
+1039,Snatch: Final Cut (1993),Crime
+1040,Brooklyn: Origins (1978),Romance
+1041,Panic Room #1041 (2011),Thriller
+1042,Dead Poets Society: Final Cut (1997),Drama
+1043,Midsommar: Redemption (2017),Horror
+1044,Singin' in the Rain #1044 (2015),Musical
+1045,Strangers on a Train: Returns (1997),Film-Noir
+1046,Parasite: Legacy (1999),Drama|Romance
+1047,How to Train Your Dragon: Chronicles (1999),Animation|Drama
+1048,The Irishman: Rising (1973),Crime|Film-Noir
+1049,When Harry Met Sally...: Rising (1993),Romance
+1050,Pulp Fiction: Reckoning (1992),Crime|Western
+1051,3:10 to Yuma: Legacy (1970),Western
+1052,2001: A Space Odyssey #1052 (2006),Sci-Fi|Western|Comedy
+1053,March of the Penguins: Legacy (1971),Documentary
+1054,Clerks: Final Cut (1971),Comedy|Mystery
+1055,Titanic: Chapter II (2015),Romance
+1056,Fatal Attraction: Legacy (1992),Thriller|Musical
+1057,Dunkirk: Final Cut (1999),War|Musical
+1058,Casino: Chronicles (2007),Crime
+1059,Alice in Wonderland #1059 (2016),Fantasy
+1060,Open Range: Legacy (2008),Western
+1061,"Monsters, Inc.: Rising (2009)",Animation
+1062,Drive My Car #1062 (1983),Drama
+1063,The Sixth Sense: Chapter II (2013),Mystery|Crime
+1064,3:10 to Yuma: Origins (2005),Western
+1065,Scarface #1065 (2017),Crime|Musical|War
+1066,Prisoners #1066 (2011),Mystery|Romance
+1067,Fight Club: Chapter II (1994),Drama
+1068,Scarface: Chapter II (1998),Crime|Drama
+1069,Children of Men: Legacy (1975),Sci-Fi
+1070,Saw: Rising (1997),Horror|Sci-Fi
+1071,The Lord of the Rings: The Fellowship of the Ring #1071 (2007),Adventure
+1072,Hacksaw Ridge: Chapter II (1995),War|Documentary
+1073,The Prestige: Reckoning (2007),Mystery|Animation
+1074,Bohemian Rhapsody: Chronicles (1993),Musical|Mystery
+1075,March of the Penguins: Returns (1971),Documentary
+1076,Run Lola Run #1076 (1979),Thriller
+1077,Fury: Final Cut (1993),War
+1078,Gladiator: Returns (1982),Action|Drama
+1079,The Killing #1079 (1976),Film-Noir|Romance|Western
+1080,Mean Girls: Chapter II (1993),Comedy
+1081,O.J.: Made in America: Redemption (1999),Documentary|Sci-Fi
+1082,Run Lola Run: Chapter II (2012),Thriller|Western
+1083,Joker: Returns (2003),Thriller|War
+1084,For a Few Dollars More #1084 (1979),Western
+1085,Sherlock Holmes: Chronicles (1992),Mystery
+1086,Mystic River: Returns (2005),Mystery|Thriller
+1087,Schindler's List: Chronicles (1974),Drama|Comedy
+1088,The Texas Chain Saw Massacre: Final Cut (1998),Horror
+1089,Man on Wire: Chronicles (2010),Documentary|War
+1090,Chicago: Redemption (2010),Musical|Thriller|Adventure
+1091,We Were Soldiers: Vol. 2 (2003),War|Thriller
+1092,Knives Out: Reckoning (1999),Mystery|Crime
+1093,A Star Is Born: Vol. 2 (1985),Musical|Documentary
+1094,Inglourious Basterds #1094 (1992),War
+1095,The Killing: Final Cut (1993),Film-Noir|Adventure|Romance
+1096,Office Space #1096 (1993),Comedy
+1097,Jungle Cruise: Chronicles (2007),Adventure|Film-Noir
+1098,Amy: Legacy (2002),Documentary
+1099,Gravity: Returns (1985),Sci-Fi
+1100,Vertigo: Reckoning (2005),Mystery
+1101,Fatal Attraction #1101 (2009),Thriller
+1102,King Kong: Reckoning (2008),Adventure
+1103,1917: Rising (2002),War|Drama
+1104,Midsommar #1104 (1970),Horror|Thriller
+1105,Sherlock Holmes: Redemption (1993),Mystery|War|Fantasy
+1106,Léon: The Professional: Origins (1973),Action|Film-Noir
+1107,The Social Dilemma: Chronicles (1995),Documentary|Horror
+1108,Groundhog Day: Chronicles (1989),Comedy
+1109,Full Metal Jacket: Reckoning (2013),War
+1110,Gone Girl #1110 (1975),Thriller
+1111,Fantastic Mr. Fox: Origins (1970),Animation
+1112,Alice in Wonderland: Chapter II (1995),Fantasy
+1113,The Avengers: Vol. 2 (1979),Action|Sci-Fi|Crime
+1114,Into the Wild: Rising (1987),Adventure
+1115,Jiro Dreams of Sushi: Reckoning (1999),Documentary|Animation
+1116,A Fistful of Dollars #1116 (2012),Western|Fantasy
+1117,Howl's Moving Castle: Chapter II (2014),Animation|Horror|Romance
+1118,The Hateful Eight #1118 (1987),Western
+1119,Bridge to Terabithia: Rising (1983),Fantasy
+1120,Psycho: Final Cut (1999),Horror|Sci-Fi
+1121,Don't Breathe: Legacy (2001),Thriller
+1122,12 Angry Men: Returns (1999),Drama
+1123,A Beautiful Mind: Chronicles (1976),Drama
+1124,Gilda: Vol. 2 (1992),Film-Noir
+1125,The Golden Compass: Chronicles (1989),Fantasy|Romance
+1126,3:10 to Yuma: Final Cut (2009),Western
+1127,Star Wars: The Empire Strikes Back: Reckoning (2008),Sci-Fi
+1128,Zootopia: Final Cut (1979),Animation
+1129,Black Panther: Vol. 2 (1995),Action
+1130,The Shining: Final Cut (1977),Horror
+1131,The Irishman: Redemption (2001),Crime|Mystery
+1132,"The Good, the Bad and the Ugly: Origins (2005)",Western|Action
+1133,Ferris Bueller's Day Off: Redemption (1986),Comedy
+1134,Grizzly Man: Rising (2002),Documentary
+1135,Toy Story: Origins (2011),Animation|Mystery
+1136,Before Sunset: Final Cut (1990),Romance|Animation
+1137,Little Women: Reckoning (1976),Romance
+1138,Pan's Labyrinth: Origins (2014),Fantasy|Adventure|Sci-Fi
+1139,A Haunting in Venice: Chapter II (1970),Mystery|Adventure
+1140,The Matrix #1140 (1978),Sci-Fi|Animation
+1141,Finding Nemo: Reckoning (2009),Animation|Film-Noir|Musical
+1142,The Incredibles: Returns (2008),Animation|Fantasy
+1143,Knives Out: Origins (2017),Mystery|Sci-Fi
+1144,Gilda: Redemption (2001),Film-Noir
+1145,The Invisible Man: Rising (2007),Thriller|Horror
+1146,Oliver! #1146 (1975),Musical
+1147,The Lion King: Chapter II (2013),Animation|Mystery|Action
+1148,Scarface: Origins (1998),Crime
+1149,Skyfall: Final Cut (1970),Action|Thriller|Western
+1150,Won't You Be My Neighbor?: Chronicles (2015),Documentary
+1151,Apollo 11 #1151 (1985),Documentary
+1152,Knives Out #1152 (1971),Comedy|War|Romance
+1153,Dead Poets Society #1153 (2008),Drama
+1154,Mamma Mia!: Reckoning (2010),Musical
+1155,The Martian #1155 (1998),Sci-Fi
+1156,Fury: Chronicles (1985),War|Sci-Fi
+1157,Brokeback Mountain: Reckoning (1972),Romance
+1158,1917: Redemption (1993),War|Documentary
+1159,Knives Out: Final Cut (1980),Comedy
+1160,Mystic River: Vol. 2 (1974),Mystery|War
+1161,Wind River #1161 (1982),Thriller
+1162,Inception: Legacy (1992),Sci-Fi|Crime
+1163,Birdman #1163 (1974),Drama
+1164,Jurassic Park: Chapter II (2002),Adventure
+1165,The Hurt Locker: Redemption (1997),War|Horror|Adventure
+1166,Strangers on a Train: Origins (1985),Film-Noir|Crime|Animation
+1167,The Iron Giant: Redemption (1989),Animation|Action|Adventure
+1168,Casino Royale: Rising (1980),Action|War|Film-Noir
+1169,Before Sunrise: Chapter II (2007),Romance
+1170,Rocketman: Reckoning (1977),Musical|Adventure
+1171,Black Swan: Origins (2008),Thriller|Animation|Crime
+1172,The Conjuring: Vol. 2 (2009),Horror|Crime
+1173,Tenet: Legacy (1995),Sci-Fi
+1174,A Monster Calls: Vol. 2 (1999),Fantasy|Horror
+1175,Sherlock Holmes: Rising (2014),Mystery|Crime
+1176,Schindler's List: Reckoning (2002),Drama|Documentary|Fantasy
+1177,Unforgiven: Reckoning (1977),Western
+1178,Memento: Returns (1999),Mystery
+1179,Eternal Sunshine of the Spotless Mind: Rising (1992),Romance|Musical
+1180,Oliver!: Reckoning (1982),Musical
+1181,Saw: Reckoning (2013),Horror|Thriller
+1182,The Magnificent Seven: Redemption (1987),Western
+1183,Django Unchained: Reckoning (2009),Western|Action
+1184,The Dark Knight: Rising (1985),Action|Documentary
+1185,The Untouchables: Final Cut (1980),Crime|War|Drama
+1186,The Goonies #1186 (1970),Adventure
+1187,Groundhog Day #1187 (2002),Comedy|Romance
+1188,2001: A Space Odyssey: Legacy (2000),Sci-Fi|Drama
+1189,Mission: Impossible - Fallout #1189 (2009),Action
+1190,Birdman: Vol. 2 (1971),Drama|War
+1191,The Lion King: Reckoning (1999),Animation
+1192,Predator: Redemption (2004),Action
+1193,Stardust #1193 (2002),Adventure
+1194,Amélie: Rising (1992),Romance|Sci-Fi
+1195,The Searchers #1195 (1985),Western|War|Drama
+1196,"Crouching Tiger, Hidden Dragon: Chronicles (1998)",Action|Mystery
+1197,Treasure Island: Vol. 2 (2015),Adventure|Action
+1198,The Hurt Locker: Rising (1998),War|Drama
+1199,How to Train Your Dragon: Origins (1976),Animation
+1200,A Quiet Place: Chronicles (1971),Horror
+1201,The Prestige #1201 (1982),Mystery
+1202,Hot Fuzz: Origins (2011),Comedy
+1203,The Sixth Sense: Origins (2016),Mystery
+1204,Carol: Chronicles (1992),Romance
+1205,Shaun of the Dead: Returns (2008),Comedy|Crime
+1206,The Goonies: Final Cut (1997),Adventure
+1207,Willow: Returns (1996),Fantasy|Comedy
+1208,The Postman Always Rings Twice: Final Cut (1987),Film-Noir|Drama
+1209,Reservoir Dogs: Rising (1996),Crime
+1210,Man on Wire: Returns (1994),Documentary|War
+1211,March of the Penguins #1211 (2005),Documentary
+1212,Run Lola Run: Redemption (1995),Thriller
+1213,Misery: Final Cut (2008),Thriller
+1214,The Silence of the Lambs: Rising (1971),Horror
+1215,Contact: Chronicles (2006),Sci-Fi|Thriller
+1216,The Hateful Eight: Returns (2001),Western|Adventure
+1217,The Goonies: Chapter II (1997),Adventure
+1218,Inception: Rising (1983),Sci-Fi|Mystery
+1219,Gone Girl #1219 (1996),Mystery|Musical
+1220,Solaris: Chronicles (1985),Sci-Fi|Action
+1221,Key Largo: Final Cut (1975),Film-Noir
+1222,Treasure Island: Reckoning (2004),Adventure
+1223,L.A. Confidential: Final Cut (1992),Crime
+1224,When Harry Met Sally...: Chapter II (1989),Romance|Film-Noir
+1225,Looper: Final Cut (2002),Sci-Fi|Action|Romance
+1226,Solaris: Legacy (1984),Sci-Fi
+1227,The Texas Chain Saw Massacre #1227 (2017),Horror|Action
+1228,The Babadook: Vol. 2 (1997),Horror
+1229,Scarface #1229 (2006),Crime|Documentary
+1230,Percy Jackson: Chronicles (1979),Fantasy
+1231,In a Lonely Place: Chronicles (2002),Film-Noir|Crime|Horror
+1232,Treasure Island: Origins (2010),Adventure
+1233,Won't You Be My Neighbor?: Legacy (2006),Documentary|Fantasy|Adventure
+1234,Jungle Cruise: Returns (1977),Adventure|Documentary
+1235,Mamma Mia! #1235 (1972),Musical
+1236,O.J.: Made in America: Final Cut (1982),Documentary|Sci-Fi|Film-Noir
+1237,The Girl with the Dragon Tattoo: Rising (1975),Mystery
+1238,Fiddler on the Roof: Redemption (2013),Musical|Animation
+1239,Atonement: Reckoning (1985),Romance
+1240,The Iron Giant: Rising (2013),Animation
+1241,The NeverEnding Story #1241 (2003),Fantasy|Horror
+1242,Butch Cassidy and the Sundance Kid: Chronicles (1975),Western
+1243,Grizzly Man: Chronicles (1977),Documentary|Sci-Fi
+1244,Dark City: Reckoning (1986),Sci-Fi|Film-Noir
+1245,The Hateful Eight: Redemption (1980),Western
+1246,The Dawn Wall: Origins (2003),Documentary|Thriller
+1247,Knives Out #1247 (2000),Mystery|Fantasy|Horror
+1248,Snowpiercer: Origins (1978),Sci-Fi|Comedy
+1249,A Fistful of Dollars #1249 (2013),Western|Romance
+1250,Catch Me If You Can: Reckoning (1977),Crime
+1251,Pirates of the Caribbean: The Curse of the Black Pearl: Final Cut (2002),Adventure
+1252,Me Before You: Chronicles (1971),Romance|Comedy|War
+1253,No Country for Old Men: Vol. 2 (1977),Crime|Thriller
+1254,The Night of the Hunter #1254 (2008),Film-Noir
+1255,Before Sunset: Vol. 2 (1980),Romance
+1256,Goodfellas: Reckoning (1991),Crime|Musical
+1257,Training Day: Rising (1986),Crime|War|Animation
+1258,Parasite: Rising (2002),Thriller|Crime
+1259,Anchorman: The Legend of Ron Burgundy: Origins (2011),Comedy|Film-Noir
+1260,Moulin Rouge!: Rising (1976),Musical|Sci-Fi
+1261,Bone Tomahawk: Legacy (1993),Western|Adventure
+1262,The Revenant: Origins (1993),Adventure
+1263,Chicago: Chronicles (1988),Musical
+1264,Ratatouille: Chronicles (2001),Animation|Musical
+1265,O.J.: Made in America #1265 (1971),Documentary|Fantasy|Thriller
+1266,The Invisible Man: Vol. 2 (2002),Thriller|Documentary
+1267,Double Indemnity: Rising (1983),Film-Noir|Western
+1268,The NeverEnding Story: Origins (1982),Fantasy
+1269,A Simple Plan #1269 (1996),Thriller
+1270,Spider-Man: Into the Spider-Verse: Origins (1971),Animation
+1271,Cast Away: Final Cut (1989),Adventure
+1272,Hereditary: Returns (1995),Horror
+1273,Se7en: Reckoning (2001),Mystery|Fantasy|Romance
+1274,Bowling for Columbine: Legacy (1990),Documentary|Mystery
+1275,Looper #1275 (2005),Sci-Fi|Mystery
+1276,Casino Royale: Returns (1993),Action|Film-Noir
+1277,Les Misérables: Vol. 2 (2005),Musical|Comedy|Fantasy
+1278,Vertigo: Redemption (2017),Mystery|Crime
+1279,Night and the City: Legacy (1971),Film-Noir
+1280,Children of Men: Final Cut (2010),Sci-Fi|Film-Noir|Documentary
+1281,It Follows: Returns (2008),Horror
+1282,The Hateful Eight: Reckoning (1976),Western|Fantasy
+1283,Treasure Island #1283 (2007),Adventure
+1284,Sweet Smell of Success #1284 (2010),Film-Noir|Thriller|Horror
+1285,Whiplash: Final Cut (1986),Drama|Film-Noir
+1286,Touch of Evil: Redemption (1989),Film-Noir|Documentary|Horror
+1287,Singin' in the Rain: Returns (1981),Musical
+1288,Brokeback Mountain: Vol. 2 (1980),Romance
+1289,Before Sunrise: Vol. 2 (1989),Romance|Horror|Fantasy
+1290,West Side Story #1290 (1992),Musical
+1291,The Maltese Falcon: Origins (2012),Film-Noir|Mystery
+1292,The Prestige: Returns (1991),Drama|Thriller|War
+1293,Bohemian Rhapsody: Origins (1975),Musical|Fantasy
+1294,Gravity: Chronicles (2017),Sci-Fi
+1295,Star Wars: The Empire Strikes Back: Returns (1987),Sci-Fi|Animation|Romance
+1296,The Game: Chapter II (2004),Thriller|Horror
+1297,Source Code: Chapter II (2010),Mystery
+1298,The Usual Suspects: Vol. 2 (1978),Crime
+1299,Tropic Thunder: Legacy (2013),Comedy
+1300,Labyrinth: Chronicles (2016),Fantasy
+1301,Bowling for Columbine #1301 (2005),Documentary|Crime
+1302,The Lord of the Rings: The Fellowship of the Ring: Rising (2015),Adventure|Animation
+1303,Psycho: Rising (1996),Horror
+1304,True Grit: Origins (1996),Western
+1305,The Silence of the Lambs: Redemption (2002),Horror|Western|Romance
+1306,Speed: Origins (1994),Thriller|Mystery
+1307,Eragon: Returns (1972),Fantasy|Sci-Fi
+1308,A Star Is Born: Chapter II (2002),Musical|Crime
+1309,The Sound of Music: Chapter II (1984),Musical
+1310,The Prestige #1310 (2016),Drama|Romance
+1311,Pirates of the Caribbean: The Curse of the Black Pearl: Vol. 2 (1997),Adventure|War
+1312,Stardust: Final Cut (1994),Adventure
+1313,Primal Fear: Reckoning (2009),Mystery|Thriller|Drama
+1314,Indiana Jones and the Last Crusade: Redemption (1981),Adventure
+1315,Laura: Redemption (2017),Film-Noir
+1316,2001: A Space Odyssey: Chapter II (1999),Sci-Fi
+1317,Vertigo #1317 (1970),Mystery|Adventure
+1318,Edge of Tomorrow: Final Cut (2009),Action
+1319,Run Lola Run: Chronicles (1998),Thriller|Sci-Fi
+1320,WALL-E: Returns (1988),Animation|Horror
+1321,Annihilation #1321 (2011),Sci-Fi
+1322,The Lord of the Rings: The Fellowship of the Ring: Vol. 2 (1995),Adventure|Romance|Horror
+1323,127 Hours: Legacy (1999),Adventure|Drama
+1324,Dunkirk: Redemption (1972),War|Crime
+1325,Office Space: Chapter II (1974),Comedy|Romance
+1326,The NeverEnding Story: Rising (1993),Fantasy|Animation
+1327,The Revenant: Final Cut (1991),Adventure
+1328,The Fault in Our Stars: Origins (1975),Romance
+1329,The Maltese Falcon #1329 (1974),Film-Noir|Fantasy
+1330,Bowling for Columbine: Chronicles (1985),Documentary
+1331,Primal Fear: Vol. 2 (1983),Mystery
+1332,The Outlaw Josey Wales: Vol. 2 (1978),Western|Horror
+1333,Good Will Hunting: Chapter II (1972),Drama|Adventure
+1334,Zoolander: Returns (2000),Comedy
+1335,Harry Potter and the Prisoner of Azkaban: Reckoning (2000),Fantasy|Adventure
+1336,Bowling for Columbine: Redemption (1994),Documentary|Action
+1337,"The Good, the Bad and the Ugly: Rising (2001)",Western|Crime
+1338,Nightcrawler: Rising (1997),Thriller
+1339,High Noon #1339 (1992),Western
+1340,The Postman Always Rings Twice: Rising (2016),Film-Noir|Comedy
+1341,Scarface #1341 (2007),Crime|Musical
+1342,Fiddler on the Roof: Vol. 2 (1983),Musical
+1343,Her: Origins (1982),Romance
+1344,Dances with Wolves: Returns (1974),Western|Musical
+1345,The Cove: Origins (2016),Documentary
+1346,Die Hard: Returns (2017),Action
+1347,Superbad: Redemption (1998),Comedy|Crime
+1348,Dune: Chapter II (1976),Sci-Fi|Crime|Romance
+1349,Tombstone: Chapter II (1975),Western|Documentary|Adventure
+1350,Butch Cassidy and the Sundance Kid: Redemption (1980),Western
+1351,Roman Holiday: Reckoning (2012),Romance|Adventure|Sci-Fi
+1352,Good Will Hunting: Returns (1987),Drama
+1353,The Martian: Chapter II (1995),Sci-Fi
+1354,Moulin Rouge!: Redemption (1995),Musical|Adventure
+1355,Gilda: Chapter II (1970),Film-Noir|Comedy
+1356,Grease: Redemption (1984),Musical|Fantasy|Horror
+1357,Gone Girl #1357 (2016),Thriller|Mystery|Comedy
+1358,Fyre #1358 (1973),Documentary|Action
+1359,Stardust #1359 (1975),Adventure
+1360,Hairspray #1360 (1992),Musical|Horror
+1361,Black Swan: Returns (1986),Thriller|Drama|Crime
+1362,Enemy at the Gates: Rising (1997),War
+1363,Borat #1363 (2004),Comedy|Sci-Fi
+1364,Full Metal Jacket #1364 (1977),War|Documentary
+1365,Nightcrawler: Reckoning (2000),Thriller|Western|Sci-Fi
+1366,Hell or High Water: Origins (1970),Western
+1367,American Gangster: Redemption (2010),Crime|Fantasy|Musical
+1368,Step Brothers: Chronicles (1975),Comedy|Fantasy|Musical
+1369,Zodiac: Rising (1995),Mystery|War
+1370,Searching for Sugar Man: Redemption (1992),Documentary|Romance|Film-Noir
+1371,School of Rock: Final Cut (1974),Comedy
+1372,The Dark Crystal: Origins (2017),Fantasy|Documentary
+1373,Kiss Me Deadly: Rising (2010),Film-Noir|Musical
+1374,Identity: Chapter II (1981),Mystery
+1375,A Fistful of Dollars: Final Cut (2016),Western|Musical|Film-Noir
+1376,Mission: Impossible - Fallout: Redemption (1972),Action|Adventure
+1377,Apocalypse Now: Chronicles (2012),War|Documentary
+1378,The Night of the Hunter #1378 (1982),Film-Noir
+1379,The Killing #1379 (1996),Film-Noir
+1380,The Third Man: Origins (2004),Film-Noir
+1381,Mean Girls: Returns (1981),Comedy|Animation
+1382,Forrest Gump: Origins (1978),Drama|Romance
+1383,Goodfellas: Legacy (1973),Crime
+1384,Bowling for Columbine: Rising (2003),Documentary|Western
+1385,Labyrinth #1385 (1984),Fantasy
+1386,Forrest Gump: Final Cut (2017),Drama|Romance
+1387,Pirates of the Caribbean: The Curse of the Black Pearl: Returns (1973),Adventure
+1388,The Game: Rising (2013),Thriller|Musical
+1389,Identity: Chronicles (2008),Mystery
+1390,Open Range: Origins (1982),Western
+1391,Don't Breathe: Rising (1970),Thriller|Crime
+1392,The Night of the Hunter #1392 (1989),Film-Noir
+1393,Mary Poppins: Legacy (1990),Musical|Mystery|Drama
+1394,2001: A Space Odyssey #1394 (2014),Sci-Fi
+1395,Stardust: Origins (2001),Adventure
+1396,Eragon: Vol. 2 (1998),Fantasy|Horror
+1397,The Bourne Ultimatum: Vol. 2 (1990),Action
+1398,1917 #1398 (1980),War
+1399,Hacksaw Ridge #1399 (1978),War|Romance
+1400,Get Out: Final Cut (2015),Horror|Animation
+1401,Shadow of a Doubt #1401 (2003),Film-Noir|Animation|Horror
+1402,Dune: Chronicles (2009),Sci-Fi
+1403,The Thing: Chronicles (1984),Horror|War
+1404,It Follows: Origins (1990),Horror|Mystery
+1405,Tenet: Returns (2003),Sci-Fi
+1406,Star Wars: A New Hope #1406 (2014),Adventure|Comedy|Sci-Fi
+1407,Little Women: Rising (1987),Romance|Documentary
+1408,Ip Man: Chronicles (1980),Action
+1409,Dumb and Dumber: Vol. 2 (1988),Comedy
+1410,Anchorman: The Legend of Ron Burgundy: Redemption (1994),Comedy
+1411,Cast Away: Origins (2009),Adventure|Comedy
+1412,Fiddler on the Roof #1412 (1980),Musical
+1413,High Noon #1413 (1971),Western|Film-Noir
+1414,Get Out: Origins (1970),Horror
+1415,Amélie: Returns (1982),Romance
+1416,Memento: Rising (1990),Mystery
+1417,Pale Rider: Final Cut (1976),Western
+1418,Brokeback Mountain: Returns (1971),Romance
+1419,Notorious: Origins (2010),Film-Noir|Horror|Thriller
+1420,Mean Girls #1420 (1981),Comedy|Animation
+1421,March of the Penguins #1421 (1984),Documentary
+1422,Labyrinth: Returns (1980),Fantasy|Romance
+1423,A Monster Calls: Reckoning (2004),Fantasy
+1424,Sweeney Todd: Final Cut (1988),Musical
+1425,The Lion King: Origins (1987),Animation|Mystery|Fantasy
+1426,Princess Mononoke: Chronicles (1995),Animation|Action|Film-Noir
+1427,Wild Wild Country: Returns (1989),Documentary
+1428,Sherlock Holmes #1428 (1988),Mystery
+1429,Brokeback Mountain: Origins (2003),Romance
+1430,Lone Survivor: Final Cut (1997),War|Action
+1431,The Big Sleep: Origins (1971),Film-Noir|War
+1432,Midsommar #1432 (1993),Horror|Mystery
+1433,Apocalypse Now #1433 (1997),War
+1434,Beauty and the Beast: Origins (1986),Animation
+1435,Inglourious Basterds: Origins (2017),War
+1436,Up: Rising (2013),Animation|Horror|Adventure
+1437,What We Do in the Shadows: Legacy (1971),Comedy
+1438,Chinatown #1438 (1975),Crime|Horror
+1439,Ex Machina: Chronicles (2001),Sci-Fi
+1440,Misery: Legacy (1989),Thriller
+1441,Pale Rider: Redemption (1993),Western
+1442,Spider-Man: Into the Spider-Verse #1442 (1972),Animation|War
+1443,Lone Survivor: Chronicles (2000),War
+1444,Don't Breathe: Origins (2000),Thriller|War
+1445,Oliver! #1445 (2002),Musical
+1446,Spider-Man: Into the Spider-Verse #1446 (1999),Animation
+1447,The NeverEnding Story: Final Cut (2004),Fantasy
+1448,Step Brothers: Final Cut (1971),Comedy|Thriller|Romance
+1449,Inception: Chapter II (1996),Sci-Fi
+1450,Goodfellas: Chapter II (2004),Crime
+1451,Willow #1451 (1978),Fantasy|Mystery
+1452,Room: Legacy (1971),Drama
+1453,Open Range: Reckoning (1984),Western|Mystery
+1454,Key Largo: Chapter II (1978),Film-Noir|Fantasy
+1455,Oldboy: Vol. 2 (2006),Action
+1456,Lawrence of Arabia: Redemption (2001),Adventure|Crime
+1457,Midnight in Paris: Legacy (2011),Comedy|Mystery
+1458,Sherlock Holmes #1458 (1978),Mystery|Fantasy
+1459,Bridge to Terabithia #1459 (2010),Fantasy|Comedy
+1460,The Sound of Music #1460 (2006),Musical|Comedy
+1461,The Big Sleep: Returns (1981),Film-Noir
+1462,Gravity #1462 (1974),Sci-Fi
+1463,Dances with Wolves: Legacy (1997),Western|Animation
+1464,Grizzly Man: Final Cut (1994),Documentary|Sci-Fi|Animation
+1465,Edward Scissorhands: Rising (2016),Fantasy|Adventure
+1466,Black Hawk Down: Rising (1980),War|Comedy
+1467,Collateral #1467 (2010),Thriller|Sci-Fi|Crime
+1468,Tropic Thunder: Vol. 2 (2004),Comedy
+1469,Dumb and Dumber: Chronicles (2007),Comedy
+1470,Fatal Attraction #1470 (1989),Thriller|Adventure|Animation
+1471,It Follows: Chronicles (1996),Horror
+1472,Apollo 11 #1472 (1983),Documentary
+1473,A Beautiful Mind: Origins (2008),Drama
+1474,The Departed: Chapter II (2017),Crime|Film-Noir
+1475,About Time #1475 (1991),Romance|Drama
+1476,The Sixth Sense: Reckoning (2000),Mystery|Thriller
+1477,Fargo: Origins (1976),Crime|Thriller
+1478,Baby Driver: Rising (2004),Action
+1479,Point Break: Final Cut (2011),Action
+1480,Howl's Moving Castle: Rising (2011),Animation
+1481,Strangers on a Train #1481 (2015),Film-Noir
+1482,Night and the City #1482 (1996),Film-Noir
+1483,Run Lola Run: Returns (1998),Thriller
+1484,Cape Fear: Returns (1991),Thriller|Comedy|Documentary
+1485,Titanic: Chronicles (1978),Romance
+1486,Collateral: Vol. 2 (1982),Thriller|Film-Noir|Western
+1487,The Goonies: Legacy (1993),Adventure|Drama
+1488,The Matrix #1488 (2012),Action|War
+1489,Tropic Thunder: Chapter II (1972),Comedy|Film-Noir|Mystery
+1490,Jurassic Park: Redemption (1996),Adventure|War
+1491,Speed: Final Cut (1987),Thriller|Mystery
+1492,Room: Returns (2006),Drama
+1493,Anchorman: The Legend of Ron Burgundy: Vol. 2 (2007),Comedy
+1494,Interstellar: Chronicles (1974),Sci-Fi|Comedy
+1495,Moonlight: Origins (1978),Drama|Adventure|Comedy
+1496,Stand by Me: Rising (1994),Adventure|Mystery
+1497,Drive My Car: Reckoning (1982),Drama|War
+1498,A Fistful of Dollars: Chapter II (1991),Western|Comedy
+1499,Hairspray: Chapter II (1991),Musical|Romance
+1500,Searching #1500 (2006),Thriller

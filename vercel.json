@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "functions": {
+    "api/index.py": {
+      "includeFiles": "data/**",
+      "maxDuration": 15
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api?__path__=$1"
+    },
+    {
+      "source": "/(health|recommend|movies|genres|users|metrics|feedback)(.*)",
+      "destination": "/api?__path__=$1$2"
+    }
+  ]
+}

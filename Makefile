@@ -1,26 +1,36 @@
 PYTHON := .venv/bin/python
 PIP := .venv/bin/pip
 CONFIG ?= configs/dev.yaml
+NPM ?= npm
 
-.PHONY: help setup data train eval ope serve test lint all clean
+.PHONY: help setup data train eval ope serve test lint all clean frontend-install frontend-build frontend-dev
 
 help:
 	@echo "Available commands:"
-	@echo "  make setup   - Create virtualenv and install dependencies"
-	@echo "  make data    - Download dataset and generate time splits & features"
-	@echo "  make train   - Train Two-Tower retrieval and LightGBM ranker models"
-	@echo "  make eval    - Run offline evaluation across all models"
-	@echo "  make ope     - Run counterfactual off-policy evaluation study"
-	@echo "  make serve   - Launch FastAPI serving application"
-	@echo "  make test    - Run pytest test suite (unit, leakage, api)"
-	@echo "  make lint    - Run ruff linter and code checks"
-	@echo "  make all     - Run end-to-end pipeline (data -> train -> eval -> ope -> report)"
-	@echo "  make clean   - Remove cache, temporary data, and build artifacts"
+	@echo "  make setup            - Create virtualenv and install dependencies"
+	@echo "  make frontend-install - Install frontend Node dependencies"
+	@echo "  make frontend-build   - Build production React frontend into frontend/dist"
+	@echo "  make frontend-dev     - Start Vite hot-reloading frontend development server"
+	@echo "  make serve            - Launch production FastAPI server & UI on http://localhost:8000"
+	@echo "  make test             - Run pytest test suite (unit, leakage, and full API integration)"
+	@echo "  make lint             - Run ruff linter and code checks"
+	@echo "  make all              - Run end-to-end pipeline (data -> train -> eval -> ope -> report)"
+	@echo "  make clean            - Remove cache, temporary data, and build artifacts"
 
 setup:
 	python3.12 -m venv .venv
 	$(PIP) install --upgrade pip
 	$(PIP) install -r requirements.txt
+	@if [ -d frontend ]; then cd frontend && $(NPM) install; fi
+
+frontend-install:
+	cd frontend && $(NPM) install
+
+frontend-build:
+	cd frontend && $(NPM) run build
+
+frontend-dev:
+	cd frontend && $(NPM) run dev
 
 data:
 	$(PYTHON) scripts/run_pipeline.py --stage data --config $(CONFIG)
@@ -35,10 +45,11 @@ ope:
 	$(PYTHON) scripts/run_ope_study.py --config $(CONFIG)
 
 serve:
-	$(PYTHON) -m uvicorn recsys.serving.app:app --host 0.0.0.0 --port 8000
+	@if [ ! -d "frontend/dist" ]; then echo "Building frontend..."; cd frontend && $(NPM) run build && cd ..; fi
+	PYTHONPATH=src $(PYTHON) -m uvicorn recsys.serving.app:app --host 0.0.0.0 --port 8000 --reload
 
 test:
-	$(PYTHON) -m pytest -v tests/
+	PYTHONPATH=src $(PYTHON) -m pytest -v tests/
 
 lint:
 	$(PYTHON) -m ruff check src/ tests/ scripts/
