@@ -10,9 +10,9 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8.svg?logo=tailwindcss)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> 🚀 **Live Production Cloud Dashboard**: [https://rs-beta-ten.vercel.app](https://rs-beta-ten.vercel.app)  
-> 🔑 **Direct One-Click Access (Pre-authenticated)**: [https://rs-beta-ten.vercel.app/?x-vercel-protection-bypass=CKqV8BDbeVj1hOFKEakSr4Eyh5AbVqGp](https://rs-beta-ten.vercel.app/?x-vercel-protection-bypass=CKqV8BDbeVj1hOFKEakSr4Eyh5AbVqGp)  
-> 📖 **Interactive Swagger API Docs**: [https://rs-beta-ten.vercel.app/docs](https://rs-beta-ten.vercel.app/docs)
+>  **Live Production Cloud Dashboard**: [https://rs-beta-ten.vercel.app](https://rs-beta-ten.vercel.app)  
+>  **Direct One-Click Access (Pre-authenticated)**: [https://rs-beta-ten.vercel.app/?x-vercel-protection-bypass=CKqV8BDbeVj1hOFKEakSr4Eyh5AbVqGp](https://rs-beta-ten.vercel.app/?x-vercel-protection-bypass=CKqV8BDbeVj1hOFKEakSr4Eyh5AbVqGp)  
+>  **Interactive Swagger API Docs**: [https://rs-beta-ten.vercel.app/docs](https://rs-beta-ten.vercel.app/docs)
 
 ---
 
@@ -301,6 +301,3 @@ rs/
 
 ---
 
-## 📜 License
-
-Distributed under the **MIT License**. See `LICENSE` for details.
