@@ -196,40 +196,6 @@ Measured on standard CPU hardware (M-series / x86_64 single core):
 
 ---
 
-## 🎓 Professor Demonstration Walkthrough
-
-When presenting this system to your professor or evaluators, follow this 5-minute structured demonstration:
-
-```text
-1. Open the Live Cloud URL: https://rs-beta-ten.vercel.app
-   (Demonstrates production cloud readiness without localhost dependencies)
-
-2. Step 1: Recommendation Studio
-   - Switch to "User 42 (Heavy Action/Sci-Fi)"
-   - Show how Two-Tower + LightGBM recommends relevant action/sci-fi films
-   - Toggle to "Global Popularity" to show how popularity ignores user history
-   - Toggle to "Cold-Start User 9999" to show graceful popularity fallback
-   - Point out the Latency Waterfall card (< 1.0 ms total latency)
-
-3. Step 2: 64-D Latent Semantic Space
-   - Open "Catalog Explorer" tab and click "The Matrix"
-   - Show the 6 nearest neighbors in Two-Tower cosine similarity space
-   - Explain how user & item towers project IDs, genres, and release years into shared vectors
-
-4. Step 3: Scientific Research & Counterfactual OPE
-   - Open "Model Benchmarks" tab
-   - Explain the divergence between offline NDCG and true policy value V*
-   - Highlight the +97.7% NDCG gain with 95% bootstrap confidence intervals
-   - Show the FAISS index comparison and ablation studies
-
-5. Step 4: Real-Time Feedback Loop
-   - Switch to "Architecture" tab
-   - Click ❤️ (Like) on any movie in the Studio tab
-   - Show the real-time event appearing in the feedback stream with its logged propensity p0(a|x)
-```
-
----
-
 ## 🚀 Local Installation & Reproduction Guide
 
 ### Prerequisites
