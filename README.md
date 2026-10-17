@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Two-Tower Retrieval + Re-Ranker with Counterfactual (Off-Policy) Evaluation
 
 [![CI](https://github.com/recsys/recsys-twotower-ope/actions/workflows/ci.yml/badge.svg)](https://github.com/recsys/recsys-twotower-ope/actions/workflows/ci.yml)
@@ -142,5 +141,5 @@ Benchmarked on Apple CPU (single worker, batch size 1):
 - Text embeddings from movie synopses (MiniLM) are currently optional and disabled in dev config to prioritize CPU speed.
 - Off-policy evaluation currently assumes independent single-item selection; slate OPE estimators with cascade position models are planned for future work.
 =======
-# rs
->>>>>>> origin/main
+
+
