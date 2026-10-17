@@ -1,0 +1,100 @@
+# Full Scale Configuration (MovieLens-25M)
+# Configured for CPU execution on 16 GB RAM with documented subsampling
+dataset_name: "ml-25m"
+data_dir: "data"
+raw_data_dir: "data/raw"
+processed_data_dir: "data/processed"
+artifacts_dir: "reports"
+seed: 42
+
+# Documented subsampling to fit within 16 GB RAM without swapping
+subsample:
+  min_user_interactions: 20
+  top_n_items: 5000
+  sample_users_fraction: 0.10 # Retains ~16k users, sufficient for high-fidelity evaluation
+
+split:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  min_user_interactions: 20
+  min_item_interactions: 10
+
+retrieval:
+  top_k: 200
+  eval_k_list: [10, 20, 50]
+  ann_index_type: "HNSW"
+  hnsw_m: 32
+  ef_construction: 128
+  ef_search: 64
+  ivf_nlist: 100
+  ivf_nprobe: 16
+
+model:
+  two_tower:
+    embedding_dim: 128
+    user_hidden_dims: [256, 128]
+    item_hidden_dims: [256, 128]
+    max_history_len: 30
+    recency_decay_lambda: 0.0001
+    temperature: 0.07
+    use_logq_correction: true
+    use_history: true
+    hard_negative_mining: false
+    learning_rate: 0.001
+    weight_decay: 1e-5
+    batch_size: 1024
+    num_epochs: 20
+    early_stopping_patience: 3
+
+  baselines:
+    popularity:
+      time_decay: false
+    item_knn:
+      k: 50
+      shrinkage: 10.0
+    bpr_mf:
+      embedding_dim: 64
+      learning_rate: 0.005
+      weight_decay: 0.0001
+      num_epochs: 20
+      batch_size: 1024
+
+  ranker:
+    model_type: "lgbm"
+    lgbm:
+      objective: "lambdarank"
+      metric: "ndcg"
+      ndcg_eval_at: [10]
+      learning_rate: 0.05
+      num_leaves: 63
+      n_estimators: 300
+      min_child_samples: 20
+      subsample: 0.8
+      colsample_bytree: 0.8
+      importance_type: "gain"
+      early_stopping_rounds: 20
+    dcnv2:
+      cross_layers: 3
+      deep_layers: [256, 128]
+      learning_rate: 0.001
+      batch_size: 1024
+      num_epochs: 15
+
+ope:
+  reward_threshold: 4.0
+  logging_policy:
+    temperature: 1.5
+    epsilon_uniform: 0.05
+  evaluation:
+    temperatures: [0.5, 1.0, 1.5, 2.0, 3.0]
+    sample_sizes: [5000, 10000, 25000, 50000]
+    clip_thresholds: [5.0, 10.0, 20.0, 50.0, 100.0]
+    default_clip: 20.0
+  bootstrap_reps: 500
+
+serving:
+  host: "0.0.0.0"
+  port: 8000
+  default_top_k: 10
+  log_feedback_path: "data/logged_feedback.jsonl"

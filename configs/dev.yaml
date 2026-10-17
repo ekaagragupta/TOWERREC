@@ -1,0 +1,99 @@
+# Dev Configuration (MovieLens latest-small)
+# Optimized for end-to-end CPU execution in <5 minutes
+dataset_name: "ml-latest-small"
+data_dir: "data"
+raw_data_dir: "data/raw"
+processed_data_dir: "data/processed"
+artifacts_dir: "reports"
+seed: 42
+
+# Time-based split ratios (chronological)
+split:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  min_user_interactions: 5
+  min_item_interactions: 3
+
+# Candidate retrieval settings
+retrieval:
+  top_k: 200
+  eval_k_list: [10, 20, 50]
+  ann_index_type: "FlatIP" # FlatIP, HNSW, IVF-PQ
+  hnsw_m: 32
+  ef_construction: 64
+  ef_search: 64
+  ivf_nlist: 32
+  ivf_nprobe: 8
+
+# Model hyperparameter configs to compose
+model:
+  two_tower:
+    embedding_dim: 64
+    user_hidden_dims: [128, 64]
+    item_hidden_dims: [128, 64]
+    max_history_len: 20
+    recency_decay_lambda: 0.0001
+    temperature: 0.07
+    use_logq_correction: true
+    use_history: true
+    hard_negative_mining: false
+    learning_rate: 0.001
+    weight_decay: 1e-5
+    batch_size: 256
+    num_epochs: 15
+    early_stopping_patience: 3
+
+  baselines:
+    popularity:
+      time_decay: false
+    item_knn:
+      k: 20
+      shrinkage: 10.0
+    bpr_mf:
+      embedding_dim: 32
+      learning_rate: 0.005
+      weight_decay: 0.0001
+      num_epochs: 15
+      batch_size: 256
+
+  ranker:
+    model_type: "lgbm" # lgbm, dcnv2
+    lgbm:
+      objective: "lambdarank"
+      metric: "ndcg"
+      ndcg_eval_at: [10]
+      learning_rate: 0.05
+      num_leaves: 31
+      n_estimators: 150
+      min_child_samples: 10
+      subsample: 0.8
+      colsample_bytree: 0.8
+      importance_type: "gain"
+      early_stopping_rounds: 15
+    dcnv2:
+      cross_layers: 2
+      deep_layers: [128, 64]
+      learning_rate: 0.001
+      batch_size: 256
+      num_epochs: 10
+
+# Counterfactual / OPE settings
+ope:
+  reward_threshold: 4.0
+  logging_policy:
+    temperature: 1.5
+    epsilon_uniform: 0.05
+  evaluation:
+    temperatures: [0.5, 1.0, 1.5, 2.0, 3.0]
+    sample_sizes: [1000, 2500, 5000, 10000]
+    clip_thresholds: [5.0, 10.0, 20.0, 50.0, 100.0]
+    default_clip: 20.0
+  bootstrap_reps: 200
+
+# Serving configuration
+serving:
+  host: "0.0.0.0"
+  port: 8000
+  default_top_k: 10
+  log_feedback_path: "data/logged_feedback.jsonl"

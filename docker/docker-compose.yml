@@ -1,0 +1,15 @@
+services:
+  recsys-api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: recsys-service
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - OMP_NUM_THREADS=4
+    volumes:
+      - ../data:/app/data
+      - ../reports:/app/reports
+    restart: unless-stopped
